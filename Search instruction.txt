@@ -1,0 +1,191 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: instruction
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 144
+
+File: smali_classes2/grok_api/AddResponseRequest$Companion$ADAPTER$1.smali
+line 1714: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1726: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 2643: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 2655: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 3396: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 3408: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+
+File: smali_classes2/grok_api/AddResponseRequest.smali
+line 41: .field private final custom_instructions:Ljava/lang/String;
+line 791:     const-string v5, "custom_instructions"
+line 902: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 2066: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 2750:     const-string v0, "custom_instructions"
+line 3036: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 3038: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 3393: ...method public final getCustom_instructions()Ljava/lang/String;
+line 3396: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 3936: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 4505: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 4511:     const-string v2, "custom_instructions="
+
+File: smali/I8/b.smali
+line 2101: ...rebase Crashlytics onboarding instructions at https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin...
+
+File: smali_classes3/s4.1/c.smali
+line 781:     const-string v12, "instructions"
+
+File: smali_classes2/grok_api/CreateConversationAndRespondRequest$Companion$ADAPTER$1.smali
+line 1578: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 1590: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 2399: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 2411: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 3130: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 3142: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+
+File: smali_classes2/grok_api/CreateConversationAndRespondRequest.smali
+line 31: .field private final custom_instructions:Ljava/lang/String;
+line 731:     const-string v5, "custom_instructions"
+line 841: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 1893: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 2503:     const-string v0, "custom_instructions"
+line 2772: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 2774: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 3073: ...method public final getCustom_instructions()Ljava/lang/String;
+line 3076: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 3574: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 4066: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 4072:     const-string v2, "custom_instructions="
+
+File: smali/g.1/F.smali
+line 1350: ...\\"server_vad\\\" },\n    \\\"instructions\\\": \\\"You are Grok, a smart and helpful AI assistant created by xAI.\n    You have a...
+
+File: smali_classes3/K0/F0.smali
+line 47:     const-string v0, "instructions"
+
+File: smali_classes3/K0/H0.smali
+line 386:     const-string v1, ", instructions="
+
+File: smali_classes3/g.1/K.smali
+line 696: ... \"server_vad\" },\n        \"instructions\": \"Reminder: You do not need to introduce yourself unless the user asks for your name...
+
+File: smali/g.1/M.smali
+line 162: ... \"server_vad\" },\n        \"instructions\": \"Reminder: You do not need to introduce yourself unless the user asks for your name...
+line 322: ... \"server_vad\" },\n        \"instructions\": \"Reminder: You do not need to introduce yourself unless the user asks for your name...
+
+File: smali_classes3/dd/O.smali
+line 107:     const-string v0, "instructionInjection"
+
+File: res/values/public.xml
+line 2406: ...ng" name="grok_customize_grok_instructions" id="0x7f1100ec" />
+line 3304: ..._lite_age_verification_selfie_instructions_subtitle" id="0x7f110490" />
+line 3305: ..._lite_age_verification_selfie_instructions_title" id="0x7f110491" />
+
+File: Search grok.txt
+line 975: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 976: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1073: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1074: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1149: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1150: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1270: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1332: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1418: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1419: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1483: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1551: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1613: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 6513: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 6514: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 6599: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 6600: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 6673: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 6674: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 6787: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 6844: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 6924: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 6925: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 6980: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 7043: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 7100: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 25803: ...ng" name="grok_customize_grok_instructions" id="0x7f1100ec" />
+line 25804: ...ng" name="grok_customize_grok_instructions" id="0x7f1100ec" />
+line 30385: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 30386: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 30486: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 30487: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 30567: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 30568: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 30696: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 30761: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 30852: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 30853: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 30919: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 30989: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 31051: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 37640: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 37641: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 37728: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 37729: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 37806: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 37807: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 37927: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 37987: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 38072: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 38073: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 38130: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 38195: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 38252: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 78098: ...ing name="grok_customize_grok_instructions">Instructions</string>
+line 78099: ...ing name="grok_customize_grok_instructions">Instructions</string>
+
+File: Search result.txt
+line 988: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 989: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1082: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1083: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1154: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1155: ...ddResponseRequest;->getCustom_instructions()Ljava/lang/String;
+line 1270: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1330: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1413: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1414: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1476: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1541: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 1598: ...i/AddResponseRequest;->custom_instructions:Ljava/lang/String;
+line 9768: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 9769: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 9850: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 9851: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 9920: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 9921: ...AndRespondRequest;->getCustom_instructions()Ljava/lang/String;
+line 10029: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 10084: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 10161: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 10162: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 10215: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 10275: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+line 10327: ...ionAndRespondRequest;->custom_instructions:Ljava/lang/String;
+
+File: Search serv.txt
+line 487: ...\\"server_vad\\\" },\n    \\\"instructions\\\": \\\"You are Grok, a smart and helpful AI assistant crea...
+line 689: ... \"server_vad\" },\n        \"instructions\": \"Reminder: You do not need to introduce yourself unless ...
+line 791: ... \"server_vad\" },\n        \"instructions\": \"Reminder: You do not need to introduce yourself unless ...
+line 792: ... \"server_vad\" },\n        \"instructions\": \"Reminder: You do not need to introduce yourself unless ...
+
+File: res/values/strings.xml
+line 216: ...ing name="grok_customize_grok_instructions">Instructions</string>
+line 1114: ..._lite_age_verification_selfie_instructions_subtitle">Make sure your face is in frame and clearly visible</string>
+line 1115: ..._lite_age_verification_selfie_instructions_title">Take a selfie</string>
+
+File: res/values-en-rGB/strings.xml
+line 125: ..._lite_age_verification_selfie_instructions_subtitle">Make sure your face is in frame and clearly visible</string>
+line 126: ..._lite_age_verification_selfie_instructions_title">Take a selfie</string>
+
+File: res/values-en-rXA/strings.xml
+line 25: ..._lite_age_verification_selfie_instructions_subtitle">[[297594]] Make sure your face is in frame and clearly visible</string>
+line 26: ..._lite_age_verification_selfie_instructions_title">[[297592]] Take a selfie</string>
+
+File: smali_classes3/com/x/thrift/onboarding/task/service/flows/thriftjava/Subtask.smali
+line 5695:     const-string v1, ", instructionInjection="
+
+File: smali_classes3/Hb/T.smali
+line 23:     const-string v0, "instructions"
+line 123:     const-string v1, ", instructions="
+
