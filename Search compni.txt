@@ -1,0 +1,26 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: companion
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 9
+
+File: smali_classes2/Cd/a.smali
+line 404:     const-string v12, "companion"
+
+File: AndroidManifest.xml
+line 80: ....android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+
+File: smali_classes3/K9/o.smali
+line 76: ....android.apps.play.billingtestcompanion.aidl.IBillingOverrideService"
+
+File: smali_classes3/e8.1/s.smali
+line 18: ....android.apps.play.billingtestcompanion.aidl.IBillingOverrideServiceCallback"
+
+File: Search ai.txt
+line 16631: ...ne 76: ...pps.play.billingtestcompanion.aidl.IBillingOverrideService"
+line 19641: ...ne 18: ...pps.play.billingtestcompanion.aidl.IBillingOverrideServiceCallback"
+
+File: smali_classes3/e8.1/t.smali
+line 614: ....android.apps.play.billingtestcompanion.BillingOverrideService.BIND"
+line 618: ....android.apps.play.billingtestcompanion"
+line 656: ....android.apps.play.billingtestcompanion"
+
