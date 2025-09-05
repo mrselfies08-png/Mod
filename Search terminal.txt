@@ -1,0 +1,8 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: terminal
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 1
+
+File: res/values/public.xml
+line 1260: ...type="drawable" name="ic_code_terminal" id="0x7f0800e6" />
+
