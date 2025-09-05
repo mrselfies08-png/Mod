@@ -1,0 +1,47 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: supergrok
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 30
+
+File: smali/g.1/b.1.smali
+line 1382:     const-string v12, "supergrok_granted"
+
+File: res/drawable/bg_supergrok_wordmark_gradient.xml
+line 10: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__0"
+line 13: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__1"
+line 16: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__2"
+line 19: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__3"
+line 22: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__4"
+line 25: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__5"
+line 28: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__6"
+line 31: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__7"
+line 34: ...roid:fillColor="@drawable/$bg_supergrok_wordmark_gradient__8"
+
+File: smali/g.1/F.smali
+line 2199:     const-string p1, "supergrok_granted"
+
+File: smali_classes3/z0.1/i.1.smali
+line 1033: ...    const-string v6, "require_supergrok"
+
+File: res/values/public.xml
+line 1061: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__0" id="0x7f080000" />
+line 1062: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__1" id="0x7f080001" />
+line 1063: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__2" id="0x7f080002" />
+line 1064: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__3" id="0x7f080003" />
+line 1065: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__4" id="0x7f080004" />
+line 1066: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__5" id="0x7f080005" />
+line 1067: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__6" id="0x7f080006" />
+line 1068: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__7" id="0x7f080007" />
+line 1069: ...lic type="drawable" name="$bg_supergrok_wordmark_gradient__8" id="0x7f080008" />
+line 1153: ...blic type="drawable" name="bg_supergrok_wordmark" id="0x7f080063" />
+line 1154: ...blic type="drawable" name="bg_supergrok_wordmark_gradient" id="0x7f080064" />
+line 1376: ...pe="drawable" name="ic_vector_supergrok_feature" id="0x7f08043b" />
+line 2496: ...ype="string" name="grok_image_supergrok_banner_images_title" id="0x7f110146" />
+line 2497: ...ype="string" name="grok_image_supergrok_banner_text" id="0x7f110147" />
+line 2498: ...ype="string" name="grok_image_supergrok_banner_videos_title" id="0x7f110148" />
+
+File: res/values/strings.xml
+line 306: 	<string name="grok_image_supergrok_banner_images_title">Images Unlocked</string>
+line 307: 	<string name="grok_image_supergrok_banner_text">SuperGrok Active</string>
+line 308: 	: <string name="grok_image_supergrok_banner_videos_title">Videos Unlocked</string>
+

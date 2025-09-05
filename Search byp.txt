@@ -1,0 +1,45 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: bypass
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 22
+
+File: smali_classes2/re.1/e.smali
+line 53:     const-string v5, "bypassCapturePostProcessing"
+line 61:     const-string v6, "bypassRenderPreProcessing"
+
+File: smali_classes2/ke/g.1.smali
+line 142:     const-string v5, "bypassCapturePostProcessing"
+
+File: smali_classes2/livekit/LivekitIngress$CreateIngressRequest.smali
+line 59: .field private bypassTranscoding_:Z
+line 408: ...ngress$CreateIngressRequest;->bypassTranscoding_:Z
+line 890: ...ngress$CreateIngressRequest;->bypassTranscoding_:Z
+line 1198:     const-string v9, "bypassTranscoding_"
+line 1270: ...ngress$CreateIngressRequest;->bypassTranscoding_:Z
+
+File: smali_classes2/livekit/LivekitIngress$IngressInfo.smali
+line 67: .field private bypassTranscoding_:Z
+line 516: .../LivekitIngress$IngressInfo;->bypassTranscoding_:Z
+line 1090: .../LivekitIngress$IngressInfo;->bypassTranscoding_:Z
+line 1474:     const-string v14, "bypassTranscoding_"
+line 1544: .../LivekitIngress$IngressInfo;->bypassTranscoding_:Z
+
+File: smali_classes2/livekit/LivekitIngress$UpdateIngressRequest.smali
+line 57: .field private bypassTranscoding_:Z
+line 386: ...ngress$UpdateIngressRequest;->bypassTranscoding_:Z
+line 864: ...ngress$UpdateIngressRequest;->bypassTranscoding_:Z
+line 1152:     const-string v8, "bypassTranscoding_"
+line 1222: ...ngress$UpdateIngressRequest;->bypassTranscoding_:Z
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NioTlsMessageProcessor.smali
+line 210:     const-string v4, " bypassing all cert validations"
+
+File: smali/D9/o.smali
+line 186: ...n local database. Events will bypass local storage"
+
+File: smali_classes3/android/gov/nist/core/net/SslNetworkLayer.smali
+line 155:     const-string p1, " bypassing all cert validations"
+
+File: smali_classes3/B5/v.smali
+line 5275:     const-string v2, "bypassRender"
+

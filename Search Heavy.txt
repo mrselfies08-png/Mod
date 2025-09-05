@@ -1,0 +1,82 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: heavy
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 67
+
+File: smali/G/E.smali
+line 896: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 1115: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+
+File: smali/grok_api/GetModelsResponse$Companion$ADAPTER$1.smali
+line 627: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 641: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 705: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 715: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 762: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 774: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 836: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 852: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 1101: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 1115: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 1195: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 1205: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+
+File: smali/grok_api/GetModelsResponse.smali
+line 71: .field private final default_heavy_mode:LNf/b;
+line 81: .field private final default_heavy_model:Ljava/lang/String;
+line 259: ...    const-string v2, "default_heavy_model"
+line 275: ...    const-string v2, "default_heavy_mode"
+line 298: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 310: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 573: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 621: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 729: ...    const-string v0, "default_heavy_model"
+line 753: ...    const-string v0, "default_heavy_mode"
+line 877: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 879: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 917: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 919: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 961: ...ethod public final getDefault_heavy_mode()LNf/b;
+line 964: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 969: ...ethod public final getDefault_heavy_model()Ljava/lang/String;
+line 972: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 1074: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 1110: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 1219: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 1225: ...    const-string v2, "default_heavy_model="
+line 1277: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 1281: ...    const-string v3, "default_heavy_mode="
+
+File: res/values/public.xml
+line 1506: ...ublic type="font" name="chirp_heavy_800" id="0x7f090001" />
+
+File: Search result.txt
+line 14435: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 14444: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18882: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18883: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18890: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 18891: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 18896: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 18897: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 18904: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18905: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18928: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18929: ...etModelsResponse;->getDefault_heavy_model()Ljava/lang/String;
+line 18936: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 18937: ...etModelsResponse;->getDefault_heavy_mode()LNf/b;
+line 18983: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 18987: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 18998: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 19002: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 19023: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 19024: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 19031: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 19032: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 19037: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 19038: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 19050: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 19054: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+line 19063: ...i/GetModelsResponse;->default_heavy_model:Ljava/lang/String;
+line 19067: ...i/GetModelsResponse;->default_heavy_mode:LNf/b;
+

@@ -1,0 +1,19 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: unauthoriz
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 8
+
+File: res/values/public.xml
+line 2307: ...lic type="string" name="error_unauthorized_confirmation_email" id="0x7f110087" />
+line 2308: ...lic type="string" name="error_unauthorized_confirmation_email_title" id="0x7f110088" />
+
+File: results auth.txt
+line 1734: .....c type="string" name="error_unauthorized_confirmation_email" id="0x7f110087" />
+line 1735: .....c type="string" name="error_unauthorized_confirmation_email_title" id="0x7f110088" />
+line 2538: ...ne 117: 	 <string name="error_unauthorized_confirmation_email">Email verification successful.</string>
+line 2539: ...ine 118: 	<string name="error_unauthorized_confirmation_email_title">Access Granted</string>
+
+File: res/values/strings.xml
+line 117: 	 <string name="error_unauthorized_confirmation_email">Email verification successful.</string>
+line 118: 	<string name="error_unauthorized_confirmation_email_title">Access Granted</string>
+

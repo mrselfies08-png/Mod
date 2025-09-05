@@ -1,0 +1,962 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: protect
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 615
+
+File: smali/kotlin/jvm/internal/a.1.smali
+line 21: .field protected final receiver:Ljava/lang/Object;
+
+File: smali_classes2/Cd/a.smali
+line 208:     const-string v36, "protected"
+line 342:     const-string v36, "protected"
+line 486:     const-string v53, "protected"
+line 748:     const-string v53, "protected"
+line 1002:     const-string v39, "protected"
+line 1906:     const-string v67, "protected"
+line 2034:     const-string v59, "protected"
+
+File: smali/androidx/datastore/preferences/protobuf/a.smali
+line 7: .field protected memoizedHashCode:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Accept.smali
+line 14: .field protected mediaRange:Landroid/gov/nist/javax/sip/header/MediaRange;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/AcceptEncoding.smali
+line 14: .field protected contentCoding:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/AcceptLanguage.smali
+line 14: .field protected languageRange:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ims/AddressHeaderIms.smali
+line 7: .field protected address:Landroid/gov/nist/javax/sip/address/AddressImpl;
+
+File: smali_classes3/android/gov/nist/javax/sip/address/AddressImpl.smali
+line 20: .field protected address:Landroid/gov/nist/javax/sip/address/GenericURI;
+line 22: .field protected addressType:I
+line 24: .field protected displayName:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/AddressParametersHeader.smali
+line 7: .field protected address:Landroid/gov/nist/javax/sip/address/AddressImpl;
+
+File: smali_classes3/android/gov/nist/javax/sip/parser/AddressParametersParser.smali
+line 7: .field protected allowParameters:Z
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/timers/AffinitityExecutorSipTimer.smali
+line 22: .field protected sipStackImpl:Landroid/gov/nist/javax/sip/SipStackImpl;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/AlertInfo.smali
+line 14: .field protected string:Ljava/lang/String;
+line 16: .field protected uri:Landroid/gov/nist/javax/sip/address/GenericURI;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Allow.smali
+line 14: .field protected method:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/AllowEvents.smali
+line 14: .field protected eventType:Ljava/lang/String;
+
+File: AndroidManifest.xml
+line 111:         android:protectionLevel="signature" />
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/AttributeField.smali
+line 10: .field protected attribute:Landroid/gov/nist/core/NameValue;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/AuthenticationHeader.smali
+line 17: ...ava/lang/String; = "integrity-protected"
+line 43: .field protected scheme:Ljava/lang/String;
+line 175: ...  const-string v0, "integrity-protected"
+line 415: ...  const-string v0, "integrity-protected"
+line 424: ...ityProtected(), The integrity-protected parameter is null"
+line 639: ...  const-string v2, "integrity-protected"
+
+File: smali_classes3/android/gov/nist/javax/sip/address/Authority.smali
+line 11: .field protected hostPort:Landroid/gov/nist/core/HostPort;
+line 13: .field protected userInfo:Landroid/gov/nist/javax/sip/address/UserInfo;
+
+File: smali/com/google/protobuf/b.smali
+line 10: .field protected memoizedHashCode:I
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/BandwidthField.smali
+line 10: .field protected bandwidth:I
+line 12: .field protected bwtype:Ljava/lang/String;
+
+File: smali_classes2/livekit/org/webrtc/BaseBitrateAdjuster.smali
+line 10: .field protected targetBitrateBps:I
+line 12: .field protected targetFramerateFps:D
+
+File: smali/com/google/protobuf/c1.1.smali
+line 30: .field protected unknownFields:Lcom/google/protobuf/u2;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/CallAnalyzer$MetricAnalysisConfiguration.smali
+line 18: .field protected checkingInterval:Ljava/lang/Long;
+line 20: .field protected minimumDumpInterval:Ljava/lang/Long;
+line 22: .field protected stuckTimeBeforeDump:Ljava/lang/Long;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/CallAnalyzer$TImeMetricInfo.smali
+line 20: .field protected config:Landroid/gov/nist/javax/sip/stack/CallAnalyzer$MetricAnalysisConfiguration;
+line 26: .field protected task:Ljava/util/TimerTask;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/CallID.smali
+line 16: .field protected callIdentifier:Landroid/gov/nist/javax/sip/header/CallIdentifier;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/CallIdentifier.smali
+line 11: .field protected host:Ljava/lang/String;
+line 13: .field protected localId:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/CallInfo.smali
+line 14: .field protected info:Landroid/gov/nist/javax/sip/address/GenericURI;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Challenge.smali
+line 31: .field protected authParams:Landroid/gov/nist/core/NameValueList;
+line 33: .field protected scheme:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/CongestionControlMessageValve.smali
+line 14: .field protected dropResponseStatus:I
+line 16: .field protected serverTransactionTableHighwaterMark:I
+line 18: .field protected sipStack:Landroid/gov/nist/javax/sip/SipStackImpl;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/ConnectionAddress.smali
+line 7: .field protected address:Landroid/gov/nist/core/Host;
+line 9: .field protected port:I
+line 11: .field protected ttl:I
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/ConnectionField.smali
+line 10: .field protected address:Landroid/gov/nist/javax/sdp/fields/ConnectionAddress;
+line 12: .field protected addrtype:Ljava/lang/String;
+line 14: .field protected nettype:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/ConnectionOrientedMessageChannel.smali
+line 24: .field protected isCached:Z
+line 26: .field protected isRunning:Z
+line 32: .field protected key:Ljava/lang/String;
+line 36: .field protected myAddress:Ljava/lang/String;
+line 38: .field protected myClientInputStream:Ljava/io/InputStream;
+line 40: .field protected myParser:Landroid/gov/nist/javax/sip/parser/PipelinedMsgParser;
+line 42: .field protected myPort:I
+line 44: .field protected mySock:Ljava/net/Socket;
+line 46: .field protected mythread:Ljava/lang/Thread;
+line 48: .field protected peerAddress:Ljava/net/InetAddress;
+line 50: .field protected peerAddressAdvertisedInHeaders:Ljava/lang/String;
+line 52: .field protected peerPort:I
+line 54: .field protected peerPortAdvertisedInHeaders:I
+line 56: .field protected peerProtocol:Ljava/lang/String;
+line 60: .field protected sipStack:Landroid/gov/nist/javax/sip/stack/SIPTransactionStack;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/ConnectionOrientedMessageProcessor.smali
+line 11: .field protected final incomingMessageChannels:Ljava/util/Map;
+line 22: .field protected isRunning:Z
+line 24: .field protected final messageChannels:Ljava/util/Map;
+line 35: .field protected nConnections:I
+line 37: .field protected sock:Ljava/net/ServerSocket;
+line 39: .field protected useCount:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Contact.smali
+line 26: .field protected wildCardFlag:Z
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ContentDisposition.smali
+line 14: .field protected dispositionType:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ContentEncoding.smali
+line 14: .field protected contentEncoding:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ContentLanguage.smali
+line 14: .field protected locale:Ljava/util/Locale;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ContentLength.smali
+line 16: .field protected contentLength:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ContentType.smali
+line 14: .field protected mediaRange:Landroid/gov/nist/javax/sip/header/MediaRange;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Credentials.smali
+line 27: .field protected parameters:Landroid/gov/nist/core/NameValueList;
+line 29: .field protected scheme:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/CSeq.smali
+line 14: .field protected method:Ljava/lang/String;
+line 16: .field protected seqno:Ljava/lang/Long;
+
+File: smali/kotlin/jvm/internal/d.smali
+line 21: .field protected final receiver:Ljava/lang/Object;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/timers/DefaultSipTimer.smali
+line 22: .field protected sipStackImpl:Landroid/gov/nist/javax/sip/SipStackImpl;
+line 24: .field protected started:Ljava/util/concurrent/atomic/AtomicBoolean;
+
+File: smali_classes3/android/gov/nist/javax/sip/DialogFilter.smali
+line 15: .field protected listeningPoint:Landroid/gov/nist/javax/sip/ListeningPointImpl;
+line 19: .field protected transactionChannel:Landroid/gov/nist/javax/sip/stack/SIPTransaction;
+
+File: smali_classes3/com/google/android/gms/internal/play_billing/e0.1.smali
+line 7: .field protected zza:I
+
+File: smali_classes2/livekit/org/webrtc/EglRenderer.smali
+line 77: .field protected final name:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/Email.smali
+line 7: .field protected hostName:Ljava/lang/String;
+line 9: .field protected userName:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/EmailAddress.smali
+line 7: .field protected displayName:Ljava/lang/String;
+line 9: .field protected email:Landroid/gov/nist/javax/sdp/fields/Email;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/EmailField.smali
+line 10: .field protected emailAddress:Landroid/gov/nist/javax/sdp/fields/EmailAddress;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ErrorInfo.smali
+line 14: .field protected errorInfo:Landroid/gov/nist/javax/sip/address/GenericURI;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Event.smali
+line 14: .field protected eventType:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/EventWrapper.smali
+line 7: .field protected sipEvent:Ljava/util/EventObject;
+line 9: .field protected transaction:Landroid/gov/nist/javax/sip/stack/SIPTransaction;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Expires.smali
+line 14: .field protected expires:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ExtensionHeaderImpl.smali
+line 14: .field protected value:Ljava/lang/String;
+
+File: smali/com/google/protobuf/GeneratedMessageLite$ExtendableMessage.smali
+line 24: .field protected extensions:Lcom/google/protobuf/Q0;
+
+File: smali_classes3/android/gov/nist/core/GenericObject.smali
+line 11: .field protected static final AND:Ljava/lang/String; = "&"
+line 13: .field protected static final AT:Ljava/lang/String; = "@"
+line 15: .field protected static final COLON:Ljava/lang/String; = ":"
+line 17: .field protected static final COMMA:Ljava/lang/String; = ","
+line 19: .field protected static final DOT:Ljava/lang/String; = "."
+line 21: .field protected static final DOUBLE_QUOTE:Ljava/lang/String; = "\""
+line 23: .field protected static final EQUALS:Ljava/lang/String; = "="
+line 25: .field protected static final GREATER_THAN:Ljava/lang/String; = ">"
+line 27: .field protected static final HT:Ljava/lang/String; = "\t"
+line 29: .field protected static final LESS_THAN:Ljava/lang/String; = "<"
+line 31: .field protected static final LPAREN:Ljava/lang/String; = "("
+line 33: .field protected static final NEWLINE:Ljava/lang/String; = "\r\n"
+line 35: .field protected static final PERCENT:Ljava/lang/String; = "%"
+line 37: .field protected static final POUND:Ljava/lang/String; = "#"
+line 39: .field protected static final QUESTION:Ljava/lang/String; = "?"
+line 41: .field protected static final QUOTE:Ljava/lang/String; = "\'"
+line 43: .field protected static final RETURN:Ljava/lang/String; = "\n"
+line 45: .field protected static final RPAREN:Ljava/lang/String; = ")"
+line 47: .field protected static final SEMICOLON:Ljava/lang/String; = ";"
+line 49: .field protected static final SLASH:Ljava/lang/String; = "/"
+line 51: .field protected static final SP:Ljava/lang/String; = " "
+line 53: .field protected static final STAR:Ljava/lang/String; = "*"
+line 57: .field protected static final immutableClasses:Ljava/util/Set;
+line 69: .field protected indentation:I
+line 71: .field protected matchExpression:Landroid/gov/nist/core/Match;
+line 73: .field protected stringRepresentation:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/core/GenericObjectList.smali
+line 23: .field protected static final AND:Ljava/lang/String; = "&"
+line 25: .field protected static final AT:Ljava/lang/String; = "@"
+line 27: .field protected static final COLON:Ljava/lang/String; = ":"
+line 29: .field protected static final COMMA:Ljava/lang/String; = ","
+line 31: .field protected static final DOT:Ljava/lang/String; = "."
+line 33: .field protected static final DOUBLE_QUOTE:Ljava/lang/String; = "\""
+line 35: .field protected static final EQUALS:Ljava/lang/String; = "="
+line 37: .field protected static final GREATER_THAN:Ljava/lang/String; = ">"
+line 39: .field protected static final HT:Ljava/lang/String; = "\t"
+line 41: .field protected static final LESS_THAN:Ljava/lang/String; = "<"
+line 43: .field protected static final LPAREN:Ljava/lang/String; = "("
+line 45: .field protected static final NEWLINE:Ljava/lang/String; = "\r\n"
+line 47: .field protected static final PERCENT:Ljava/lang/String; = "%"
+line 49: .field protected static final POUND:Ljava/lang/String; = "#"
+line 51: .field protected static final QUESTION:Ljava/lang/String; = "?"
+line 53: .field protected static final QUOTE:Ljava/lang/String; = "\'"
+line 55: .field protected static final RETURN:Ljava/lang/String; = "\n"
+line 57: .field protected static final RPAREN:Ljava/lang/String; = ")"
+line 59: .field protected static final SEMICOLON:Ljava/lang/String; = ";"
+line 61: .field protected static final SLASH:Ljava/lang/String; = "/"
+line 63: .field protected static final SP:Ljava/lang/String; = " "
+line 65: .field protected static final STAR:Ljava/lang/String; = "*"
+line 71: .field protected indentation:I
+line 73: .field protected listName:Ljava/lang/String;
+line 75: .field protected myClass:Ljava/lang/Class;
+
+File: smali_classes3/android/gov/nist/javax/sip/address/GenericURI.smali
+line 28: .field protected scheme:Ljava/lang/String;
+line 30: .field protected uriString:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/HopImpl.smali
+line 11: .field protected defaultRoute:Z
+line 13: .field protected host:Ljava/lang/String;
+line 15: .field protected port:I
+line 17: .field protected transport:Ljava/lang/String;
+line 19: .field protected uriRoute:Z
+
+File: smali_classes3/android/gov/nist/core/Host.smali
+line 7: .field protected static final HOSTNAME:I = 0x1
+line 9: .field protected static final IPV4ADDRESS:I = 0x2
+line 11: .field protected static final IPV6ADDRESS:I = 0x3
+line 19: .field protected addressType:I
+line 21: .field protected hostname:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/core/HostPort.smali
+line 11: .field protected host:Landroid/gov/nist/core/Host;
+line 13: .field protected port:I
+
+File: smali_classes2/io/intercom/android/sdk/overlay/InAppNotification.smali
+line 24: .field protected static final MARGIN_OFFSET_DP:I = 0x8
+line 26: .field protected static final NEW_MESSENGER_CORNER_RADIUS:I = 0x14
+line 30: .field protected static final SCALE_OFFSET:F = 0.05f
+line 34: .field protected final appConfigProvider:Lio/intercom/android/sdk/Provider;
+line 44: .field protected bottomPadding:I
+line 46: .field protected conversation:Lio/intercom/android/sdk/models/Conversation;
+line 54: .field protected final localisedContext:Landroid/content/Context;
+line 56: .field protected overlayRoot:Landroid/view/ViewGroup;
+line 58: .field protected position:I
+line 60: .field protected final screenHeight:I
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/InformationField.smali
+line 10: .field protected information:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/InReplyTo.smali
+line 14: .field protected callId:Landroid/gov/nist/javax/sip/header/CallIdentifier;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/KeyField.smali
+line 10: .field protected keyData:Ljava/lang/String;
+line 12: .field protected type:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/core/LexerCore.smali
+line 99: .field protected static final globalSymbolTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 110: .field protected static final lexerTables:Ljava/util/concurrent/ConcurrentHashMap;
+line 125: .field protected currentLexer:Ljava/util/Map;
+line 136: .field protected currentLexerName:Ljava/lang/String;
+line 138: .field protected currentMatch:Landroid/gov/nist/core/Token;
+
+File: smali/com/pairip/licensecheck/LicenseActivity.smali
+line 308: .method protected closeApp()V
+
+File: smali/com/pairip/licensecheck/LicenseClient.smali
+line 43: .field protected static exitAction:Ljava/lang/Runnable; = null
+line 45: .field protected static licenseCheckState:Lcom/pairip/licensecheck/LicenseClient$LicenseCheckState; = null
+line 47: .field protected static licensePubKey:Ljava/lang/String; = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxuQlkvWLaKpgm/XKVQZlL5fPoO...
+line 49: .field protected static packageName:Ljava/lang/String; = "ai.x.grok"
+
+File: smali_classes3/android/gov/nist/javax/sip/ListeningPointImpl.smali
+line 15: .field protected messageProcessor:Landroid/gov/nist/javax/sip/stack/MessageProcessor;
+line 19: .field protected sipProvider:Landroid/gov/nist/javax/sip/SipProviderImpl;
+line 21: .field protected sipStack:Landroid/gov/nist/javax/sip/SipStackImpl;
+line 23: .field protected transport:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/core/LogWriter.smali
+line 24: .field protected traceLevel:I
+
+File: smali_classes3/I5/m.smali
+line 102: ...    const-string p0, "EGL_EXT_protected_content"
+
+File: smali_classes3/android/gov/nist/javax/sip/header/MaxForwards.smali
+line 14: .field protected maxForwards:I
+
+File: smali_classes3/android/gov/nist/javax/sdp/MediaDescriptionImpl.smali
+line 11: .field protected attributeFields:Ljava/util/Vector;
+line 13: .field protected bandwidthFields:Ljava/util/Vector;
+line 15: .field protected connectionField:Landroid/gov/nist/javax/sdp/fields/ConnectionField;
+line 17: .field protected informationField:Landroid/gov/nist/javax/sdp/fields/InformationField;
+line 19: .field protected keyField:Landroid/gov/nist/javax/sdp/fields/KeyField;
+line 21: .field protected mediaField:Landroid/gov/nist/javax/sdp/fields/MediaField;
+line 23: .field protected preconditionFields:Landroid/gov/nist/javax/sdp/fields/PreconditionFields;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/MediaField.smali
+line 10: .field protected formats:Ljava/util/Vector;
+line 12: .field protected media:Ljava/lang/String;
+line 14: .field protected nports:I
+line 16: .field protected port:I
+line 18: .field protected proto:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/MediaRange.smali
+line 11: .field protected subtype:Ljava/lang/String;
+line 13: .field protected type:Ljava/lang/String;
+
+File: smali/com/squareup/wire/Message.smali
+line 48: .field protected transient hashCode:I
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/MessageChannel.smali
+line 23: .field protected transient messageProcessor:Landroid/gov/nist/javax/sip/stack/MessageProcessor;
+line 25: .field protected useCount:I
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/MessageProcessor.smali
+line 7: .field protected static final IN6_ADDR_ANY:Ljava/lang/String; = "::0"
+line 9: .field protected static final IN_ADDR_ANY:Ljava/lang/String; = "0.0.0.0"
+line 29: .field protected sipStack:Landroid/gov/nist/javax/sip/stack/SIPTransactionStack;
+line 31: .field protected transport:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/MimeVersion.smali
+line 14: .field protected majorVersion:I
+line 16: .field protected minorVersion:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/MinExpires.smali
+line 14: .field protected expires:I
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/MultiPipelineExecutor$SemaphoreRunnable.smali
+line 31: .field protected parent:Landroid/gov/nist/javax/sip/stack/MultiPipelineExecutor;
+line 40: .field protected semaphore:Ljava/util/concurrent/Semaphore;
+line 42: .field protected wrappedTask:Ljava/lang/Runnable;
+
+File: smali_classes3/android/javax/sip/n.smali
+line 7: .field protected m_Cause:Ljava/lang/Throwable;
+
+File: smali/com/google/android/gms/internal/measurement/n2.1.smali
+line 13: .field protected zzc:Lcom/google/android/gms/internal/measurement/T2;
+
+File: smali_classes3/android/gov/nist/core/NameValue.smali
+line 26: .field protected final isFlagParameter:Z
+line 28: .field protected isQuotedString:Z
+
+File: smali_classes3/android/gov/nist/javax/sip/address/NetObject.smali
+line 7: .field protected static final CORE_PACKAGE:Ljava/lang/String; = "android.gov.nist.core"
+line 9: .field protected static final GRUU:Ljava/lang/String; = "gr"
+line 11: .field protected static final LR:Ljava/lang/String; = "lr"
+line 13: .field protected static final MADDR:Ljava/lang/String; = "maddr"
+line 15: .field protected static final METHOD:Ljava/lang/String; = "method"
+line 17: .field protected static final NET_PACKAGE:Ljava/lang/String; = "android.gov.nist.javax.sip.address"
+line 19: .field protected static final PARSER_PACKAGE:Ljava/lang/String; = "android.gov.nist.javax.sip.parser"
+line 21: .field protected static final PHONE:Ljava/lang/String; = "phone"
+line 23: .field protected static final SIP:Ljava/lang/String; = "sip"
+line 25: .field protected static final SIPS:Ljava/lang/String; = "sips"
+line 27: .field protected static final TCP:Ljava/lang/String; = "tcp"
+line 29: .field protected static final TLS:Ljava/lang/String; = "tls"
+line 31: .field protected static final TRANSPORT:Ljava/lang/String; = "transport"
+line 33: .field protected static final TTL:Ljava/lang/String; = "ttl"
+line 35: .field protected static final UDP:Ljava/lang/String; = "udp"
+line 37: .field protected static final USER:Ljava/lang/String; = "user"
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NIOHandler.smali
+line 11: .field protected channelMap:Ljava/util/HashMap;
+line 39: .field protected socketTimeoutAuditor:Landroid/gov/nist/javax/sip/stack/SocketTimeoutAuditor;
+
+File: smali_classes3/android/gov/nist/javax/sip/parser/NioPipelineParser.smali
+line 46: .field protected sipMessageListener:Landroid/gov/nist/javax/sip/parser/SIPMessageListener;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NioTcpMessageChannel.smali
+line 15: .field protected lastActivityTimeStamp:J
+line 19: .field protected socketChannel:Ljava/nio/channels/SocketChannel;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NioTcpMessageProcessor.smali
+line 25: .field protected final changeRequests:Ljava/util/Queue;
+line 35: .field protected channel:Ljava/nio/channels/ServerSocketChannel;
+line 37: .field protected nioHandler:Landroid/gov/nist/javax/sip/stack/NIOHandler;
+line 51: .field protected selector:Ljava/nio/channels/Selector;
+line 53: .field protected selectorThread:Ljava/lang/Thread;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Organization.smali
+line 14: .field protected organization:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/OriginField.smali
+line 10: .field protected address:Landroid/gov/nist/core/Host;
+line 12: .field protected addrtype:Ljava/lang/String;
+line 14: .field protected nettype:Ljava/lang/String;
+line 20: .field protected username:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ims/ParameterNamesIms.smali
+line 52: ...ava/lang/String; = "integrity-protected"
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ParametersHeader.smali
+line 12: .field protected duplicates:Landroid/gov/nist/core/DuplicateNameValueList;
+line 14: .field protected parameters:Landroid/gov/nist/core/NameValueList;
+
+File: smali_classes3/android/gov/nist/core/ParserCore.smali
+line 13: .field protected lexer:Landroid/gov/nist/core/LexerCore;
+
+File: smali_classes2/io/intercom/android/sdk/carousel/permission/PermissionRequestBefore30.smali
+line 20: .field protected final permissionManager:Lio/intercom/android/sdk/carousel/PermissionManager;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/PhoneField.smali
+line 10: .field protected name:Ljava/lang/String;
+line 12: .field protected phoneNumber:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/parser/PipelinedMsgParser.smali
+line 46: .field protected sipMessageListener:Landroid/gov/nist/javax/sip/parser/SIPMessageListener;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/PreconditionFields.smali
+line 46: .field protected preconditionAttributes:Ljava/util/Vector;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Priority.smali
+line 22: .field protected priority:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Protocol.smali
+line 11: .field protected protocolName:Ljava/lang/String;
+line 13: .field protected protocolVersion:Ljava/lang/String;
+line 15: .field protected transport:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/ProtoVersionField.smali
+line 10: .field protected protoVersion:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/ProxyRequire.smali
+line 14: .field protected optionTag:Ljava/lang/String;
+
+File: res/values/public.xml
+line 4387: ..."string" name="x_lite_retweet_protected_education_description" id="0x7f1108cb" />
+line 4388: ..."string" name="x_lite_retweet_protected_education_title" id="0x7f1108cc" />
+line 4442: ...g" name="x_lite_simple_tweets_protected_body" id="0x7f110902" />
+line 4528: ...="string" name="x_lite_tweets_protected_title" id="0x7f110958" />
+line 4610: ...ng" name="x_lite_verification_protected_desc" id="0x7f1109aa" />
+
+File: smali_classes3/e6/r.smali
+line 151: ...const-string p7, "Unsupported protection scheme type \'"
+
+File: smali_classes3/android/gov/nist/javax/sip/header/RAck.smali
+line 14: .field protected cSeqNumber:J
+line 16: .field protected method:Ljava/lang/String;
+line 18: .field protected rSeqNumber:J
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Reason.smali
+line 18: .field protected protocol:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/RepeatField.smali
+line 14: .field protected activeDuration:Landroid/gov/nist/javax/sdp/fields/TypedTime;
+line 16: .field protected offsets:Landroid/gov/nist/javax/sdp/fields/SDPObjectList;
+line 18: .field protected repeatInterval:Landroid/gov/nist/javax/sdp/fields/TypedTime;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/RequestLine.smali
+line 14: .field protected method:Ljava/lang/String;
+line 16: .field protected sipVersion:Ljava/lang/String;
+line 18: .field protected uri:Landroid/gov/nist/javax/sip/address/GenericURI;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Require.smali
+line 14: .field protected optionTag:Ljava/lang/String;
+
+File: results auth.txt
+line 483: line 31: .field protected authParams:Landroid/gov/nist/core/NameValueList;
+line 2448: line 15: .field protected authority:Landroid/gov/nist/javax/sip/address/Authority;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/RetryAfter.smali
+line 16: .field protected comment:Ljava/lang/String;
+line 18: .field protected retryAfter:Ljava/lang/Integer;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/RSeq.smali
+line 14: .field protected sequenceNumber:J
+
+File: smali_classes3/com/google/android/gms/internal/play_billing/s0.1.smali
+line 11: .field protected zzc:Lcom/google/android/gms/internal/play_billing/S0;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/timers/ScheduledExecutorSipTimer.smali
+line 22: .field protected sipStackImpl:Landroid/gov/nist/javax/sip/SipStackImpl;
+
+File: smali_classes3/android/gov/nist/javax/sdp/parser/SDPAnnounceParser.smali
+line 7: .field protected lexer:Landroid/gov/nist/javax/sdp/parser/Lexer;
+line 9: .field protected sdpMessage:Ljava/util/Vector;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/SDPField.smali
+line 7: .field protected fieldName:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/SDPFieldList.smali
+line 7: .field protected sdpFields:Landroid/gov/nist/javax/sdp/fields/SDPObjectList;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/SDPFormat.smali
+line 7: .field protected format:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/SDPObject.smali
+line 10: .field protected static final CORE_PACKAGE:Ljava/lang/String; = "android.gov.nist.core"
+line 12: .field protected static final SDPFIELDS_PACKAGE:Ljava/lang/String; = "android.gov.nist.javax.sdp.fields"
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/SDPObjectList.smali
+line 7: .field protected static final SDPFIELDS_PACKAGE:Ljava/lang/String; = "android.gov.nist.javax.sdp.fields"
+
+File: Search securit.txt
+line 630: line 241: .field protected securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+
+File: Search serv.txt
+line 330: line 16: .field protected serverTransactionTableHighwaterMark:I
+line 1237: line 202: .field protected serverTransactionFlag:Z
+line 1260: line 245: .field protected serverDialogMergeTestTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 1261: line 256: .field protected serverLogger:Landroid/gov/nist/core/ServerLogger;
+line 1262: line 258: .field protected serverTransactionTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 1263: line 269: .field protected serverTransactionTableHighwaterMark:I
+line 1264: line 271: .field protected serverTransactionTableLowaterMark:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Server.smali
+line 14: .field protected productTokens:Ljava/util/List;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/ServerLog.smali
+line 26: .field protected stackLogger:Landroid/gov/nist/core/StackLogger;
+line 28: .field protected traceLevel:I
+
+File: smali_classes3/android/gov/nist/javax/sdp/SessionDescriptionImpl.smali
+line 10: .field protected attributesList:Ljava/util/Vector;
+line 12: .field protected bandwidthList:Ljava/util/Vector;
+line 14: .field protected connectionImpl:Landroid/gov/nist/javax/sdp/fields/ConnectionField;
+line 20: .field protected emailList:Ljava/util/Vector;
+line 22: .field protected infoImpl:Landroid/gov/nist/javax/sdp/fields/InformationField;
+line 24: .field protected keyImpl:Landroid/gov/nist/javax/sdp/fields/KeyField;
+line 26: .field protected mediaDescriptions:Ljava/util/Vector;
+line 28: .field protected originImpl:Landroid/gov/nist/javax/sdp/fields/OriginField;
+line 30: .field protected phoneList:Ljava/util/Vector;
+line 32: .field protected sessionNameImpl:Landroid/gov/nist/javax/sdp/fields/SessionNameField;
+line 34: .field protected timeDescriptions:Ljava/util/Vector;
+line 36: .field protected uriImpl:Landroid/gov/nist/javax/sdp/fields/URIField;
+line 38: .field protected versionImpl:Landroid/gov/nist/javax/sdp/fields/ProtoVersionField;
+line 40: .field protected zoneAdjustments:Ljava/util/Vector;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/SessionNameField.smali
+line 10: .field protected sessionName:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SIPDate.smali
+line 55: .field protected day:I
+line 57: .field protected hour:I
+line 61: .field protected minute:I
+line 63: .field protected month:I
+line 65: .field protected second:I
+line 67: .field protected sipMonth:Ljava/lang/String;
+line 69: .field protected sipWkDay:Ljava/lang/String;
+line 71: .field protected wkday:I
+line 73: .field protected year:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SIPDateHeader.smali
+line 14: .field protected date:Landroid/gov/nist/javax/sip/header/SIPDate;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPDialog.smali
+line 42: .field protected transient ackProcessed:Z
+line 52: .field protected transient byeSent:Z
+line 54: .field protected callIdHeader:Lb1/j;
+line 56: .field protected callIdHeaderString:Ljava/lang/String;
+line 58: .field protected contactHeader:Landroid/gov/nist/javax/sip/header/Contact;
+line 60: .field protected contactHeaderStringified:Ljava/lang/String;
+line 66: .field protected dialogId:Ljava/lang/String;
+line 72: .field protected transient earlyDialogId:Ljava/lang/String;
+line 78: .field protected eventHeader:Lb1/t;
+line 90: .field protected firstTransaction:Landroid/gov/nist/javax/sip/stack/SIPTransaction;
+line 92: .field protected firstTransactionId:Ljava/lang/String;
+line 94: .field protected firstTransactionIsServerTransaction:Z
+line 96: .field protected firstTransactionMergeId:Ljava/lang/String;
+line 98: .field protected firstTransactionMethod:Ljava/lang/String;
+line 100: .field protected firstTransactionPort:I
+line 102: .field protected firstTransactionSecure:Z
+line 104: .field protected firstTransactionSeen:Z
+line 108: .field protected hisTag:Ljava/lang/String;
+line 110: .field protected transient isAcknowledged:Z
+line 112: .field protected transient isAssigned:Z
+line 114: .field protected isBackToBackUserAgent:Z
+line 116: .field protected lastAckReceivedCSeqNumber:Ljava/lang/Long;
+line 120: .field protected transient lastInviteOkReceived:J
+line 122: .field protected lastInviteResponseCSeqNumber:J
+line 124: .field protected lastInviteResponseCode:I
+line 126: .field protected lastResponseCSeqNumber:J
+line 128: .field protected lastResponseDialogId:Ljava/lang/String;
+line 130: .field protected lastResponseFromTag:Ljava/lang/String;
+line 132: .field protected lastResponseMethod:Ljava/lang/String;
+line 134: .field protected lastResponseStatusCode:Ljava/lang/Integer;
+line 136: .field protected lastResponseToTag:Ljava/lang/String;
+line 140: .field protected lastTransaction:Landroid/gov/nist/javax/sip/stack/SIPTransaction;
+line 142: .field protected localParty:La1/a;
+line 144: .field protected localPartyStringified:Ljava/lang/String;
+line 146: .field protected localSequenceNumber:J
+line 148: .field protected method:Ljava/lang/String;
+line 150: .field protected myTag:Ljava/lang/String;
+line 152: .field protected transient nextSeqno:J
+line 156: .field protected originalLocalSequenceNumber:J
+line 160: .field protected transient originalRequestRecordRouteHeaders:Landroid/gov/nist/javax/sip/header/RecordRouteList;
+line 162: .field protected transient originalRequestRecordRouteHeadersString:Ljava/lang/String;
+line 168: .field protected proxyAuthorizationHeader:Lb1/K;
+line 170: .field protected reInviteFlag:Z
+line 172: .field protected transient reInviteWaitTime:I
+line 176: .field protected remoteParty:La1/a;
+line 178: .field protected remotePartyStringified:Ljava/lang/String;
+line 180: .field protected remoteSequenceNumber:J
+line 182: .field protected remoteTarget:La1/a;
+line 184: .field protected remoteTargetStringified:Ljava/lang/String;
+line 198: .field protected routeList:Landroid/gov/nist/javax/sip/header/RouteList;
+line 200: .field protected sequenceNumberValidation:Z
+line 202: .field protected serverTransactionFlag:Z
+line 210: .field protected terminateOnBye:Z
+line 212: .field protected transient timerTask:Landroid/gov/nist/javax/sip/stack/SIPDialog$DialogTimerTask;
+
+File: smali_classes3/android/gov/nist/javax/sip/message/SIPDuplicateHeaderException.smali
+line 11: .field protected sipHeader:Landroid/gov/nist/javax/sip/header/SIPHeader;
+line 13: .field protected sipMessage:Landroid/gov/nist/javax/sip/message/SIPMessage;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SIPETag.smali
+line 15: .field protected entityTag:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SIPHeader.smali
+line 12: .field protected headerName:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SIPHeaderList.smali
+line 27: .field protected hlist:Ljava/util/List;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SIPIfMatch.smali
+line 15: .field protected entityTag:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/message/SIPMessage.smali
+line 35: .field protected applicationData:Ljava/lang/Object;
+line 37: .field protected cSeqHeader:Landroid/gov/nist/javax/sip/header/CSeq;
+line 39: .field protected callIdHeader:Landroid/gov/nist/javax/sip/header/CallID;
+line 43: .field protected contentLengthHeader:Landroid/gov/nist/javax/sip/header/ContentLength;
+line 45: .field protected forkId:Ljava/lang/String;
+line 47: .field protected fromHeader:Landroid/gov/nist/javax/sip/header/From;
+line 49: .field protected headerTable:Ljava/util/Map;
+line 60: .field protected headers:Ljava/util/concurrent/ConcurrentLinkedQueue;
+line 74: .field protected maxForwardsHeader:Landroid/gov/nist/javax/sip/header/MaxForwards;
+line 76: .field protected messageContent:Ljava/lang/String;
+line 78: .field protected messageContentBytes:[B
+line 80: .field protected messageContentObject:Ljava/lang/Object;
+line 82: .field protected nullRequest:Z
+line 92: .field protected size:I
+line 94: .field protected toHeader:Landroid/gov/nist/javax/sip/header/To;
+line 96: .field protected unrecognizedHeaders:Ljava/util/LinkedList;
+
+File: smali_classes3/android/gov/nist/javax/sip/SipProviderImpl.smali
+line 21: .field protected eventScanner:Landroid/gov/nist/javax/sip/EventScanner;
+line 36: .field protected sipStack:Landroid/gov/nist/javax/sip/SipStackImpl;
+
+File: smali_classes3/android/gov/nist/javax/sip/message/SIPRequest.smali
+line 15: .field protected static final headersToIncludeInResponse:Ljava/util/Set;
+line 54: .field protected requestLine:Landroid/gov/nist/javax/sip/header/RequestLine;
+
+File: smali_classes3/android/gov/nist/javax/sip/message/SIPResponse.smali
+line 13: .field protected statusLine:Landroid/gov/nist/javax/sip/header/StatusLine;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPServerTransactionImpl.smali
+line 29: .field protected dialogId:Ljava/lang/String;
+line 33: .field protected isAckSeen:Z
+
+File: smali_classes3/android/gov/nist/javax/sip/SipStackImpl.smali
+line 27: .field protected listeningPoints:Ljava/util/Hashtable;
+line 42: .field protected sipProviders:Ljava/util/List;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPTransactionImpl.smali
+line 26: .field protected T2:I
+line 28: .field protected T4:I
+line 30: .field protected transient applicationData:Ljava/lang/Object;
+line 32: .field protected auditTag:J
+line 34: .field protected baseTimerInterval:I
+line 38: .field protected collectionTime:I
+line 44: .field protected transient encapsulatedChannel:Landroid/gov/nist/javax/sip/stack/MessageChannel;
+line 62: .field protected isMapped:Z
+line 64: .field protected lastResponse:Landroid/gov/nist/javax/sip/message/SIPResponse;
+line 68: .field protected mergeId:Ljava/lang/String;
+line 72: .field protected originalRequest:Landroid/gov/nist/javax/sip/message/SIPRequest;
+line 74: .field protected originalRequestBranch:Ljava/lang/String;
+line 76: .field protected originalRequestBytes:[B
+line 78: .field protected originalRequestCSeqNumber:J
+line 80: .field protected originalRequestHasPort:Z
+line 90: .field protected transient sipStack:Landroid/gov/nist/javax/sip/stack/SIPTransactionStack;
+line 94: .field protected timeoutTimerTicksLeft:I
+line 96: .field protected timerD:I
+line 98: .field protected timerI:I
+line 100: .field protected timerK:I
+line 102: .field protected toListener:Z
+line 104: .field protected transactionId:Ljava/lang/String;
+line 106: .field protected transactionTimerStarted:Ljava/util/concurrent/atomic/AtomicBoolean;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPTransactionStack.smali
+line 24: .field protected static final dialogCreatingMethods:Ljava/util/Set;
+line 36: .field protected static selfRoutingThreadpoolExecutor:Ljava/util/concurrent/ScheduledExecutorService;
+line 42: .field protected addressResolver:Landroid/gov/nist/core/net/AddressResolver;
+line 44: .field protected cacheClientConnections:Z
+line 46: .field protected cacheServerConnections:Z
+line 48: .field protected cancelClientTransactionChecked:Z
+line 50: .field protected checkBranchId:Z
+line 52: .field protected clientAuth:Landroid/gov/nist/javax/sip/stack/ClientAuthType;
+line 54: .field protected clientTransactionTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 65: .field protected clientTransactionTableHiwaterMark:I
+line 67: .field protected clientTransactionTableLowaterMark:I
+line 69: .field protected connTimeout:I
+line 71: .field protected defaultRouter:Landroid/gov/nist/javax/sip/stack/DefaultRouter;
+line 73: .field protected deliverRetransmittedAckToListener:Z
+line 79: .field protected dialogTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 90: .field protected dialogTimeoutFactor:I
+line 92: .field protected earlyDialogTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 103: .field protected earlyDialogTimeout:I
+line 116: .field protected forkedEvents:Ljava/util/HashSet;
+line 126: .field protected generateTimeStampHeader:Z
+line 128: .field protected ioHandler:Landroid/gov/nist/javax/sip/stack/IOHandler;
+line 130: .field protected isAutomaticDialogErrorHandlingEnabled:Z
+line 132: .field protected isAutomaticDialogSupportEnabled:Z
+line 134: .field protected isBackToBackUserAgent:Z
+line 136: .field protected isDialogTerminatedEventDeliveredForNullDialog:Z
+line 138: .field protected logRecordFactory:Landroid/gov/nist/javax/sip/LogRecordFactory;
+line 140: .field protected logStackTraceOnMessageSend:Z
+line 142: .field protected maxConnections:I
+line 144: .field protected maxContentLength:I
+line 146: .field protected maxForkTime:I
+line 148: .field protected maxListenerResponseTime:I
+line 150: .field protected maxMessageSize:I
+line 152: .field protected maxTxLifetimeInvite:I
+line 154: .field protected maxTxLifetimeNonInvite:I
+line 181: .field protected minKeepAliveInterval:J
+line 183: .field protected needsLogging:Z
+line 185: .field protected networkLayer:Landroid/gov/nist/core/net/NetworkLayer;
+line 193: .field protected outboundProxy:Ljava/lang/String;
+line 195: .field protected patchReceivedRport:Z
+line 197: .field protected patchRport:Z
+line 199: .field protected patchWebSocketHeaders:Z
+line 212: .field protected readTimeout:I
+line 214: .field protected receiveUdpBufferSize:I
+line 220: .field protected reliableConnectionKeepAliveTimeout:I
+line 222: .field protected remoteTagReassignmentAllowed:Z
+line 224: .field protected retransmissionAlertTransactions:Ljava/util/concurrent/ConcurrentHashMap;
+line 235: .field protected rfc2543Supported:Z
+line 237: .field protected router:La1/c;
+line 239: .field protected routerPath:Ljava/lang/String;
+line 241: .field protected securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 243: .field protected sendUdpBufferSize:I
+line 245: .field protected serverDialogMergeTestTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 256: .field protected serverLogger:Landroid/gov/nist/core/ServerLogger;
+line 258: .field protected serverTransactionTable:Ljava/util/concurrent/ConcurrentHashMap;
+line 269: .field protected serverTransactionTableHighwaterMark:I
+line 271: .field protected serverTransactionTableLowaterMark:I
+line 275: .field protected sipMessageFactory:Landroid/gov/nist/javax/sip/stack/StackMessageFactory;
+line 291: .field protected stackAddress:Ljava/lang/String;
+line 295: .field protected stackInetAddress:Ljava/net/InetAddress;
+line 297: .field protected stackName:Ljava/lang/String;
+line 312: .field protected threadAuditor:Landroid/gov/nist/core/ThreadAuditor;
+line 314: .field protected threadPoolSize:I
+line 320: .field protected toExit:Z
+line 324: .field protected unlimitedClientTransactionTableSize:Z
+line 326: .field protected unlimitedServerTransactionTableSize:Z
+line 328: .field protected useRouterForAll:Z
+
+File: smali_classes3/android/gov/nist/javax/sip/address/SipUri.smali
+line 15: .field protected authority:Landroid/gov/nist/javax/sip/address/Authority;
+line 17: .field protected qheaders:Landroid/gov/nist/core/NameValueList;
+line 19: .field protected telephoneSubscriber:Landroid/gov/nist/javax/sip/address/TelephoneNumber;
+line 21: .field protected uriParms:Landroid/gov/nist/core/NameValueList;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SSLStateMachine.smali
+line 22: .field protected channel:Landroid/gov/nist/javax/sip/stack/NioTlsChannelInterface;
+line 24: .field protected pendingOutboundBuffers:Ljava/util/Queue;
+line 34: .field protected sslEngine:Ljavax/net/ssl/SSLEngine;
+line 36: .field protected tlsRecordBuffer:Ljava/nio/ByteBuffer;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/StatusLine.smali
+line 14: .field protected matchStatusClass:Z
+line 16: .field protected reasonPhrase:Ljava/lang/String;
+line 18: .field protected sipVersion:Ljava/lang/String;
+line 20: .field protected statusCode:I
+
+File: smali_classes3/android/gov/nist/javax/sip/parser/StringMsgParser.smali
+line 10: .field protected static computeContentLengthFromMessage:Z = false
+
+File: res/values/strings.xml
+line 220: ...res to ensure your privacy is protected throughout the process.</string>
+line 224: ...e posts to and from public or protected accounts that you can view), your conversation history for Grok on X.</string>
+line 2197: ...	<string name="x_lite_retweet_protected_education_description">Only people who follow @%s can view their posts.</string>
+line 2198: ...	<string name="x_lite_retweet_protected_education_title">Protected posts can’t be reposted</string>
+line 2252: ...ng name="x_lite_simple_tweets_protected_body">Only confirmed followers have access to @%s’s posts and complete profile. Tap the Fo...
+line 2338: 	<string name="x_lite_tweets_protected_title">These posts are protected.</string>
+line 2338: ...tected_title">These posts are protected.</string>
+line 2412: ...ofile, unless their posts are protected.</string>
+line 2415: ...ur posts.\n(If the account is protected they\'ll have to re-request to follow)</string>
+line 2420: ...ing name="x_lite_verification_protected_desc">This account has its posts protected. Only their followers can read them.</string>
+line 2420: ...c">This account has its posts protected. Only their followers can read them.</string>
+
+File: res/values-en-rXA/strings.xml
+line 1108: ... <string name="x_lite_retweet_protected_education_description">[[280107]] Only people who follow @%s can view their posts.</string...
+line 1109: ... <string name="x_lite_retweet_protected_education_title">[[280270]] Protected posts can’t be reposted</string>
+line 1163: ...ng name="x_lite_simple_tweets_protected_body">[[279845]] Only confirmed followers have access to @%s’s posts and complete profile....
+line 1249: ...  <string name="x_lite_tweets_protected_title">[[279838]] These posts are protected.</string>
+line 1249: ...e">[[279838]] These posts are protected.</string>
+line 1323: ...ofile, unless their posts are protected.</string>
+line 1327: (If the account is protected they'll have to re-request to follow)"</string>
+line 1332: ...ing name="x_lite_verification_protected_desc">[[279932]] This account has its posts protected. Only their followers can read them....
+line 1332: ...]] This account has its posts protected. Only their followers can read them.</string>
+
+File: res/values-en-rGB/strings.xml
+line 1209: ... <string name="x_lite_retweet_protected_education_description">Only people who follow @%s can view their posts.</string>
+line 1210: ... <string name="x_lite_retweet_protected_education_title">Protected posts can’t be reposted</string>
+line 1264: ...ng name="x_lite_simple_tweets_protected_body">"Only confirmed followers have access to @%s’s posts and complete profile. Tap the '...
+line 1350: ...  <string name="x_lite_tweets_protected_title">These posts are protected.</string>
+line 1350: ...tected_title">These posts are protected.</string>
+line 1424: ...ofile, unless their posts are protected.</string>
+line 1428: (If the account is protected they'll have to re-request to follow)"</string>
+line 1433: ...ing name="x_lite_verification_protected_desc">This account has its posts protected. Only their followers can read them.</string>
+line 1433: ...c">This account has its posts protected. Only their followers can read them.</string>
+
+File: smali_classes3/android/gov/nist/core/StringTokenizer.smali
+line 7: .field protected buffer:[C
+line 9: .field protected bufferLen:I
+line 11: .field protected ptr:I
+line 13: .field protected savedPtr:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Subject.smali
+line 14: .field protected subject:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/SubscriptionState.smali
+line 14: .field protected expires:I
+line 16: .field protected reasonCode:Ljava/lang/String;
+line 18: .field protected retryAfter:I
+line 20: .field protected state:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Supported.smali
+line 14: .field protected optionTag:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/TCPMessageChannel.smali
+line 11: .field protected myClientOutputStream:Ljava/io/OutputStream;
+
+File: smali_classes3/android/gov/nist/javax/sip/address/TelephoneNumber.smali
+line 17: .field protected isglobal:Z
+line 19: .field protected parameters:Landroid/gov/nist/core/NameValueList;
+line 21: .field protected phoneNumber:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/address/TelURLImpl.smali
+line 14: .field protected telephoneNumber:Landroid/gov/nist/javax/sip/address/TelephoneNumber;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/TimeField.smali
+line 10: .field protected startTime:J
+line 12: .field protected stopTime:J
+
+File: smali_classes3/android/gov/nist/javax/sip/header/TimeStamp.smali
+line 14: .field protected delay:I
+line 16: .field protected delayFloat:F
+line 18: .field protected timeStamp:J
+
+File: smali_classes3/android/gov/nist/core/Token.smali
+line 7: .field protected tokenType:I
+line 9: .field protected tokenValue:Ljava/lang/String;
+
+File: smali/androidx/datastore/preferences/protobuf/u.1.smali
+line 30: .field protected unknownFields:Landroidx/datastore/preferences/protobuf/c0;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/UDPMessageChannel.smali
+line 39: .field protected myParser:Landroid/gov/nist/javax/sip/parser/MessageParser;
+line 41: .field protected myPort:I
+line 57: .field protected sipStack:Landroid/gov/nist/javax/sip/stack/SIPTransactionStack;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/UDPMessageProcessor.smali
+line 32: .field protected isRunning:Z
+line 36: .field protected messageChannels:Ljava/util/LinkedList;
+line 38: .field protected messageQueue:Ljava/util/concurrent/BlockingQueue;
+line 50: .field protected sock:Ljava/net/DatagramSocket;
+line 52: .field protected threadPoolSize:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Unsupported.smali
+line 14: .field protected optionTag:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/URIField.smali
+line 14: .field protected url:Ljava/net/URL;
+line 16: .field protected urlString:Ljava/lang/String;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/UserAgent.smali
+line 14: .field protected productTokens:Ljava/util/List;
+
+File: smali_classes3/android/gov/nist/javax/sip/address/UserInfo.smali
+line 15: .field protected password:Ljava/lang/String;
+line 17: .field protected user:Ljava/lang/String;
+line 19: .field protected userType:I
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Via.smali
+line 25: .field protected comment:Ljava/lang/String;
+line 27: .field protected sentBy:Landroid/gov/nist/core/HostPort;
+line 29: .field protected sentProtocol:Landroid/gov/nist/javax/sip/header/Protocol;
+
+File: smali_classes3/android/gov/nist/javax/sip/header/Warning.smali
+line 14: .field protected agent:Ljava/lang/String;
+line 16: .field protected code:I
+line 18: .field protected text:Ljava/lang/String;
+
+File: smali/com/google/android/gms/internal/measurement/Y1.smali
+line 7: .field protected zza:I
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/ZoneAdjustment.smali
+line 7: .field protected offset:Landroid/gov/nist/javax/sdp/fields/TypedTime;
+line 9: .field protected sign:Ljava/lang/String;
+line 11: .field protected time:J
+
+File: smali_classes3/android/gov/nist/javax/sdp/fields/ZoneField.smali
+line 10: .field protected zoneAdjustments:Landroid/gov/nist/javax/sdp/fields/SDPObjectList;
+

@@ -1,0 +1,82 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: quota
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 55
+
+File: smali_classes2/Df/a.1.smali
+line 1224: ...ring v1, "Expected closing no_quotation mark"
+
+File: smali/a7/c.smali
+line 227: ... INTEGER NOT NULL, `out_of_no_quota_policy` INTEGER NOT NULL, `period_count` INTEGER NOT NULL DEFAULT 0, `generation` INTEGER NOT ...
+line 231: ...run_in_foreground`,`out_of_no_quota_policy`,`period_count`,`generation`,`next_schedule_time_override`,`next_schedule_time_override...
+line 231: ...run_in_foreground`,`out_of_no_quota_policy`,`period_count`,`generation`,`next_schedule_time_override`,`next_schedule_time_override...
+line 276: ... INTEGER NOT NULL, `out_of_no_quota_policy` INTEGER NOT NULL, `period_count` INTEGER NOT NULL DEFAULT 0, `generation` INTEGER NOT ...
+line 280: ...run_in_foreground`,`out_of_no_quota_policy`,`period_count`,`generation`,`required_network_type`,`requires_charging`,`requires_devi...
+line 280: ...run_in_foreground`,`out_of_no_quota_policy`,`period_count`,`generation`,`required_network_type`,`requires_charging`,`requires_devi...
+line 303: ... INTEGER NOT NULL, `out_of_no_quota_policy` INTEGER NOT NULL, `period_count` INTEGER NOT NULL DEFAULT 0, `required_network_type` I...
+line 307: ...run_in_foreground`,`out_of_no_quota_policy`,`required_network_type`,`requires_charging`,`requires_device_idle`,`requires_battery_n...
+line 307: ...run_in_foreground`,`out_of_no_quota_policy`,`required_network_type`,`requires_charging`,`requires_device_idle`,`requires_battery_n...
+line 692: ... INTEGER NOT NULL, `out_of_no_quota_policy` INTEGER NOT NULL, `required_network_type` INTEGER NOT NULL, `requires_charging` INTEGE...
+line 696: ...run_in_foreground`,`out_of_no_quota_policy`,`required_network_type`,`requires_charging`,`requires_device_idle`,`requires_battery_n...
+line 696: ...run_in_foreground`,`out_of_no_quota_policy`,`required_network_type`,`requires_charging`,`requires_device_idle`,`requires_battery_n...
+line 805: ...,\n                `out_of_no_quota_policy` INTEGER NOT NULL,\n                `period_count` INTEGER NOT NULL DEFAULT 0,\n       ...
+line 809: ...und`,\n            `out_of_no_quota_policy`,\n            `period_count`,\n            `generation`,\n            `required_networ...
+line 809: ...und`,\n            `out_of_no_quota_policy`,\n            `period_count`,\n            `generation`,\n            `required_networ...
+line 870: ...orkspec ADD COLUMN `out_of_no_quota_policy` INTEGER NOT NULL DEFAULT 0"
+
+File: smali_classes3/androidx/work/impl/workers/DiagnosticsWorker.smali
+line 216: ...  const-string v8, "out_of_no_quota_policy"
+
+File: smali/i7.1/e.smali
+line 30: ...run_in_foreground`,`out_of_no_quota_policy`,`period_count`,`generation`,`next_schedule_time_override`,`next_schedule_time_override...
+
+File: smali_classes2/Df/I.smali
+line 741: ...ring v1, "Expected closing no_quotation mark"
+
+File: smali/i7.1/i.smali
+line 65: ...in_foreground` = ?,`out_of_no_quota_policy` = ?,`period_count` = ?,`generation` = ?,`next_schedule_time_override` = ?,`next_schedu...
+
+File: smali/i7.1/m.smali
+line 58: ... INTEGER NOT NULL, `out_of_no_quota_policy` INTEGER NOT NULL, `period_count` INTEGER NOT NULL DEFAULT 0, `generation` INTEGER NOT ...
+line 579: ... const-string v17, "out_of_no_quota_policy"
+line 587: ...  const-string v8, "out_of_no_quota_policy"
+
+File: smali/i7.1/q.smali
+line 738: ...  const-string v2, "out_of_no_quota_policy"
+line 1393: ...  const-string v2, "out_of_no_quota_policy"
+line 2042: ...  const-string v2, "out_of_no_quota_policy"
+line 2691: ...  const-string v2, "out_of_no_quota_policy"
+line 3340: ...  const-string v2, "out_of_no_quota_policy"
+line 4083: ...  const-string v2, "out_of_no_quota_policy"
+
+File: Search result.txt
+line 38925: line 157: ...private no_quota_:Lcom/google/api/Quota;
+line 39332: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39333: line 1699: ...rvice;->no_quota_:Lcom/google/api/Quota;
+line 39526: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39527: line 2420: ...rvice;->no_quota_:Lcom/google/api/Quota;
+line 39530: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39531: line 2430: ...rvice;->no_quota_:Lcom/google/api/Quota;
+line 39535: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39536: line 2444: ...rvice;->no_quota_:Lcom/google/api/Quota;
+line 39537: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39538: line 2449: ...rvice;->no_quota_:Lcom/google/api/Quota;
+line 39731: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39732: line 3232: ...rvice;->no_quota_:Lcom/google/api/Quota;
+line 39874: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 39875: line 4173: ...rvice;->no_quota_:Lcom/google/api/Quota;
+
+File: smali_classes3/com/google/api/Service.smali
+line 157: .field private no_quota_:Lcom/google/api/Quota;
+line 1699: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 2420: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 2430: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 2444: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 2449: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 3232: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+line 3438:     const-string v13, "no_quota_"
+line 4173: ... Lcom/google/api/Service;->no_quota_:Lcom/google/api/Quota;
+
+File: smali_classes2/Df/w.smali
+line 1270:     const-string p0, "no_quotation mark \'\"\'"
+

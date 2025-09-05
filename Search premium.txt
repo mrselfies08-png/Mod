@@ -1,0 +1,47 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: premium
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 26
+
+File: res/values/public.xml
+line 2565: ...rok_model_selector_upgrade_to_premium" id="0x7f11018b" />
+line 3285: ...pe="string" name="x_lite_a11y_premium_settings" id="0x7f11047d" />
+line 4352: ...ic type="string" name="x_lite_premium_hub_error_description" id="0x7f1108a8" />
+line 4353: ...ic type="string" name="x_lite_premium_hub_retry" id="0x7f1108a9" />
+
+File: Search error.txt
+line 1465: ...ne 4352: ...ing" name="x_lite_premium_hub_error_description" id="0x7f1108a8" />
+line 2932: ...ne 1174: ...ring name="x_lite_premium_hub_error_description">Sorry, something went wrong</string>
+line 3101: ...ne 1073: ...ring name="x_lite_premium_hub_error_description">[[288248]] Sorry, something went wrong</string>
+line 3343: ...ne 2162: ...ring name="x_lite_premium_hub_error_description">Sorry, something went wrong</string>
+
+File: Search grok.txt
+line 25969: ...rok_model_selector_upgrade_to_premium" id="0x7f11018b" />
+line 78264: ...rok_model_selector_upgrade_to_premium">Upgrade to Premium</string>
+
+File: Search mode.txt
+line 21724: ...rok_model_selector_upgrade_to_premium" id="0x7f11018b" />
+line 46406: ...rok_model_selector_upgrade_to_premium" id="0x7f11018b" />
+line 49087: ...rok_model_selector_upgrade_to_premium">Upgrade to Premium</string>
+line 55064: ...rok_model_selector_upgrade_to_premium">Upgrade to Premium</string>
+
+File: Search model.txt
+line 21165: ...rok_model_selector_upgrade_to_premium" id="0x7f11018b" />
+line 23628: ...rok_model_selector_upgrade_to_premium">Upgrade to Premium</string>
+
+File: res/values/strings.xml
+line 375: ...rok_model_selector_upgrade_to_premium">Upgrade to Premium</string>
+line 1095: 	<string name="x_lite_a11y_premium_settings">Premium settings</string>
+line 2162: 	<string name="x_lite_premium_hub_error_description">Sorry, something went wrong</string>
+line 2163: 	<string name="x_lite_premium_hub_retry">Try again</string>
+
+File: res/values-en-rGB/strings.xml
+line 106: ...    <string name="x_lite_a11y_premium_settings">Premium settings</string>
+line 1174:     <string name="x_lite_premium_hub_error_description">Sorry, something went wrong</string>
+line 1175:     <string name="x_lite_premium_hub_retry">Try again</string>
+
+File: res/values-en-rXA/strings.xml
+line 6: ...    <string name="x_lite_a11y_premium_settings">[[289808]] Premium settings</string>
+line 1073:     <string name="x_lite_premium_hub_error_description">[[288248]] Sorry, something went wrong</string>
+line 1074:     <string name="x_lite_premium_hub_retry">[[288249]] Try again</string>
+

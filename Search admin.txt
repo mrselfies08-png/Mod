@@ -1,0 +1,369 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: admin
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 270
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$ChatFullNotificationKt$lambda-1$1.smali
+line 125:     const-string v3, "admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$ChatFullNotificationKt$lambda-2$1.smali
+line 125:     const-string v3, "admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$ChatFullNotificationKt$lambda-3$1.smali
+line 125:     const-string v3, "admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$ChatFullNotificationKt$lambda-4$1.smali
+line 125:     const-string v3, "admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$ChatFullNotificationKt$lambda-5$1.smali
+line 125:     const-string v3, "admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$InAppNotificationCardKt$lambda-1$1.smali
+line 127:     const-string v5, "admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/ComposableSingletons$InAppNotificationCardKt$lambda-2$1.smali
+line 127:     const-string v5, "admin"
+
+File: smali/io/intercom/android/sdk/models/Conversation.smali
+line 67: ...  value = "last_participating_admin"
+
+File: smali_classes2/io/intercom/android/sdk/m5/conversation/data/ConversationRepository.smali
+line 895:     const-string p3, "last_admin_part_created_at"
+
+File: smali_classes2/io/intercom/android/sdk/models/ConversationResponse$Builder.smali
+line 50: ...ld private last_participating_admin:Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;
+line 93: ...$Builder;->last_participating_admin:Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;
+line 178: ...c final getLast_participating_admin()Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;
+line 181: ...$Builder;->last_participating_admin:Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;
+line 322: ...c final setLast_participating_admin(Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;)V
+line 329: ...$Builder;->last_participating_admin:Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;
+
+File: smali_classes2/io/intercom/android/sdk/models/ConversationResponse.smali
+line 74: ...ilder;->getLast_participating_admin()Lio/intercom/android/sdk/models/LastParticipatingAdmin$Builder;
+
+File: smali_classes2/io/intercom/android/sdk/m5/conversation/ConversationViewModel.smali
+line 39: .field private #adminIsTypingJob:Lff/k0;
+line 41: .field private final #adminIsTypingUseCase:Lio/intercom/android/sdk/m5/conversation/usecase/ShowAdminIsTypingUseCase;
+line 328:     const-string v10, "#adminIsTypingUseCase"
+line 466: ...tion/ConversationViewModel;->#adminIsTypingUseCase:Lio/intercom/android/sdk/m5/conversation/usecase/ShowAdminIsTypingUseCase;
+line 1546: ...tion/ConversationViewModel;->#adminIsTypingJob:Lff/k0;
+line 1554: ...tion/ConversationViewModel;->#adminIsTypingUseCase:Lio/intercom/android/sdk/m5/conversation/usecase/ShowAdminIsTypingUseCase;
+line 1730: ...tion/ConversationViewModel;->#adminIsTypingJob:Lff/k0;
+
+File: smali_classes2/io/intercom/android/sdk/m5/home/states/HomeUiState$Content$ContentHeader.smali
+line 30: .field private final adminsAvatars:Ljava/util/List;
+line 92:     const-string v0, "adminsAvatars"
+line 128: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 296: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 428: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 472:     const-string v0, "adminsAvatars"
+line 620: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 622: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 660: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 840: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+line 926:     const-string v1, ", adminsAvatars="
+line 930: ...State$Content$ContentHeader;->adminsAvatars:Ljava/util/List;
+
+File: smali_classes2/io/intercom/android/sdk/m5/home/states/HomeUiState$Content.smali
+line 28: .field private final adminsAvatars:Ljava/util/List;
+line 82:     const-string v0, "adminsAvatars"
+line 98: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 132: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 222: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 276:     const-string v0, "adminsAvatars"
+line 352: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 354: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 414: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 496: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+line 556:     const-string v1, ", adminsAvatars="
+line 560: .../states/HomeUiState$Content;->adminsAvatars:Ljava/util/List;
+
+File: smali_classes2/io/intercom/android/sdk/overlay/InAppNotification.smali
+line 572: ...$string;->intercom_reply_from_admin:I
+
+File: smali_classes2/io/intercom/android/sdk/m5/notification/InAppNotificationCardKt.smali
+line 809: ...$string;->intercom_reply_from_admin:I
+
+File: smali_classes2/io/intercom/android/sdk/databinding/IntercomBlocksAdminLayoutBinding.smali
+line 63: ...dk/R$layout;->intercom_blocks_admin_layout:I
+
+File: smali_classes2/io/intercom/android/sdk/ui/theme/IntercomColors.smali
+line 17: .field private final adminBackground:J
+line 19: .field private final adminBorder:J
+line 166: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 171: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 491: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 505: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 981: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 989: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 1547: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 1549: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 1560: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 1562: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 1950: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 1958: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 2316: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 2322: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+line 2592:     const-string v3, ", adminBackground="
+line 2596: ...sdk/ui/theme/IntercomColors;->adminBackground:J
+line 2598:     const-string v3, ", adminBorder="
+line 2602: ...sdk/ui/theme/IntercomColors;->adminBorder:J
+
+File: smali/io/intercom/android/sdk/models/MessageStyle.smali
+line 23:         value = "admin_is_typing_style"
+
+File: smali_classes2/io/intercom/android/sdk/m5/home/ui/components/NewConversationCardKt$NewConversationCard$1.smali
+line 28: .field final synthetic $adminAvatars:Ljava/util/List;
+line 71: ...rdKt$NewConversationCard$1;->$adminAvatars:Ljava/util/List;
+line 186: ...rdKt$NewConversationCard$1;->$adminAvatars:Ljava/util/List;
+
+File: smali_classes2/io/intercom/android/sdk/m5/home/ui/components/NewConversationCardKt$NewConversationCardV1$1.smali
+line 34: .field final synthetic $adminAvatars:Ljava/util/List;
+line 67: ...Kt$NewConversationCardV1$1;->$adminAvatars:Ljava/util/List;
+line 192: ...Kt$NewConversationCardV1$1;->$adminAvatars:Ljava/util/List;
+
+File: smali_classes2/io/intercom/android/sdk/m5/home/ui/components/NewConversationCardKt.smali
+line 35:     const-string v0, "adminAvatars"
+line 117:     const-string p7, "$adminAvatars"
+line 733:     const-string p7, "$adminAvatars"
+
+File: smali/io/intercom/android/nexus/NexusEvent.smali
+line 15: ..._AVATAR:Ljava/lang/String; = "adminAvatar"
+line 17: ...DMIN_ID:Ljava/lang/String; = "adminId"
+line 19: ...IN_NAME:Ljava/lang/String; = "adminName"
+line 21: ...MESTAMP:Ljava/lang/String; = "adminTimestamp"
+line 434:     const-string v1, "adminId"
+line 438:     const-string p1, "adminName"
+line 442:     const-string p1, "adminAvatar"
+line 484:     const-string v1, "adminId"
+line 492:     const-string p1, "adminName"
+line 496:     const-string p1, "adminAvatar"
+line 538:     const-string v1, "adminId"
+line 576:     const-string v1, "adminId"
+line 652:     const-string v1, "adminId"
+line 850:     const-string v1, "adminId"
+
+File: smali_classes2/io/intercom/android/sdk/m5/conversation/data/NexusEventAsFlowKt.smali
+line 52:     const-string v3, "adminAvatar"
+
+File: smali/io/intercom/android/nexus/NexusEventType$10.smali
+line 47:     const-string v2, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$16.smali
+line 47:     const-string v3, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$17.smali
+line 47:     const-string v2, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$18.smali
+line 47:     const-string v2, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$19.smali
+line 47:     const-string v2, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$5.smali
+line 47:     const-string v3, "adminName"
+line 59:     const-string v3, "adminId"
+line 71:     const-string v3, "adminAvatar"
+
+File: smali/io/intercom/android/nexus/NexusEventType$6.smali
+line 47:     const-string v3, "adminName"
+line 59:     const-string v3, "adminId"
+line 71:     const-string v3, "adminAvatar"
+
+File: smali/io/intercom/android/nexus/NexusEventType$7.smali
+line 47:     const-string v2, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$8.smali
+line 47:     const-string v3, "adminId"
+
+File: smali/io/intercom/android/nexus/NexusEventType$9.smali
+line 47:     const-string v2, "adminId"
+
+File: smali/io/intercom/android/sdk/models/Part$Builder.smali
+line 62: .field participant_is_admin:Z
+line 76: .field seen_by_admin:Ljava/lang/String;
+line 247: ...Part$Builder;->participant_is_admin:Z
+line 272: ...models/Part$Builder;->seen_by_admin:Ljava/lang/String;
+
+File: smali_classes2/io/intercom/android/sdk/models/Part.smali
+line 466: ...Part$Builder;->participant_is_admin:Z
+line 566: ...models/Part$Builder;->seen_by_admin:Ljava/lang/String;
+
+File: smali_classes2/io/intercom/android/sdk/models/Participant.smali
+line 18: ...IN_TYPE:Ljava/lang/String; = "admin"
+line 154:     const-string v0, "admin"
+
+File: smali_classes3/com/google/type/PostalAddress.smali
+line 61: .field private administrativeArea_:Ljava/lang/String;
+line 120: ...m/google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 566: ...m/google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1006: ...m/google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1020: ...m/google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1310:     const-string v5, "administrativeArea_"
+line 1427: ...m/google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1435: ...m/google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+
+File: res/values/public.xml
+line 2102: ...layout" name="intercom_blocks_admin_layout" id="0x7f0d0032" />
+line 2746: ...g" name="intercom_assigned_to_admin" id="0x7f110240" />
+line 2950: ...ng" name="intercom_reply_from_admin" id="0x7f11030c" />
+line 3085: ...tion_prefix_status_changed_by_admin" id="0x7f110393" />
+line 3086: ...tion_prefix_status_changed_by_admin_with_ticket_id" id="0x7f110394" />
+line 3455: ...type="string" name="x_lite_dm_admin" id="0x7f110527" />
+line 4625: ...me="x_lite_xchat_add_as_group_admin_failed" id="0x7f1109b9" />
+line 4687: ...chat_group_participant_add_as_admin" id="0x7f1109f7" />
+line 4689: ...t_group_participant_remove_as_admin" id="0x7f1109f9" />
+line 4744: ..."x_lite_xchat_remove_as_group_admin_failed" id="0x7f110a30" />
+line 4748: ..."x_lite_xchat_resign_as_group_admin" id="0x7f110a34" />
+line 4749: ..."x_lite_xchat_resign_as_group_admin_failed" id="0x7f110a35" />
+line 4774: ...me="x_lite_xchat_unknown_adds_admin" id="0x7f110a4e" />
+line 4775: ...ite_xchat_unknown_adds_you_as_admin" id="0x7f110a4f" />
+line 4776: ..."x_lite_xchat_unknown_removes_admin" id="0x7f110a50" />
+line 4777: ..._xchat_unknown_removes_you_as_admin" id="0x7f110a51" />
+line 4780: ... name="x_lite_xchat_user_adds_admin" id="0x7f110a54" />
+line 4781: ...x_lite_xchat_user_adds_you_as_admin" id="0x7f110a55" />
+line 4784: ...me="x_lite_xchat_user_removes_admin" id="0x7f110a58" />
+line 4785: ...ite_xchat_user_removes_you_as_admin" id="0x7f110a59" />
+line 4786: ...te_xchat_user_was_promoted_to_admin" id="0x7f110a5a" />
+line 4789: ...g" name="x_lite_xchat_you_add_admin" id="0x7f110a5d" />
+line 4798: ...name="x_lite_xchat_you_remove_admin" id="0x7f110a66" />
+line 4800: ...te_xchat_you_were_promoted_to_admin" id="0x7f110a68" />
+
+File: smali_classes2/io/intercom/android/sdk/R$layout.smali
+line 30: ...public static intercom_blocks_admin_layout:I = 0x7f0d0032
+
+File: smali/io/intercom/android/sdk/R$string.smali
+line 86: ...c static intercom_assigned_to_admin:I = 0x7f110240
+line 494: ...ic static intercom_reply_from_admin:I = 0x7f11030c
+line 764: ...tion_prefix_status_changed_by_admin:I = 0x7f110393
+line 766: ...tion_prefix_status_changed_by_admin_with_ticket_id:I = 0x7f110394
+
+File: res/values/strings.xml
+line 556: ...ng name="intercom_assigned_to_admin">Assigned to {admin}</string>
+line 556: ...signed_to_admin">Assigned to {admin}</string>
+line 693: ...me: {name}, Teammate status: {adminStatus}, Message sent time: {sentTime}.</string>
+line 760: ...ing name="intercom_reply_from_admin">Reply from {name}</string>
+line 895: ...tion_prefix_status_changed_by_admin">{admin_first_name} moved your ticket to</string>
+line 895: ...fix_status_changed_by_admin">{admin_first_name} moved your ticket to</string>
+line 896: ...tion_prefix_status_changed_by_admin_with_ticket_id">{admin_first_name} moved your ticket #{ticket_id} to</string>
+line 896: ...ged_by_admin_with_ticket_id">{admin_first_name} moved your ticket #{ticket_id} to</string>
+line 1265: 	<string name="x_lite_dm_admin">Admin</string>
+line 2435: ...me="x_lite_xchat_add_as_group_admin_failed">Unable to add user as Admin</string>
+line 2497: ...chat_group_participant_add_as_admin">Add as Admin</string>
+line 2499: ...t_group_participant_remove_as_admin">Remove as Admin</string>
+line 2554: ..."x_lite_xchat_remove_as_group_admin_failed">Unable to remove user as Admin</string>
+line 2558: ..."x_lite_xchat_resign_as_group_admin">Resign as Admin</string>
+line 2559: ..."x_lite_xchat_resign_as_group_admin_failed">Unable to resign as Admin</string>
+line 2584: ...me="x_lite_xchat_unknown_adds_admin">{participants} was added as an admin</string>
+line 2584: ...participants} was added as an admin</string>
+line 2585: ...ite_xchat_unknown_adds_you_as_admin">You were added as an admin</string>
+line 2585: ...s_admin">You were added as an admin</string>
+line 2586: ..."x_lite_xchat_unknown_removes_admin">{participants} was removed as an admin</string>
+line 2586: ...rticipants} was removed as an admin</string>
+line 2587: ..._xchat_unknown_removes_you_as_admin">You were removed as an admin</string>
+line 2587: ...admin">You were removed as an admin</string>
+line 2590: ... name="x_lite_xchat_user_adds_admin">{sender} added {participants} as an admin</string>
+line 2590: ...r} added {participants} as an admin</string>
+line 2591: ...x_lite_xchat_user_adds_you_as_admin">{sender} added you as an admin</string>
+line 2591: ...min">{sender} added you as an admin</string>
+line 2594: ...me="x_lite_xchat_user_removes_admin">{sender} removed {participants} as an admin</string>
+line 2594: ... removed {participants} as an admin</string>
+line 2595: ...ite_xchat_user_removes_you_as_admin">{sender} removed you as an admin</string>
+line 2595: ...n">{sender} removed you as an admin</string>
+line 2596: ...te_xchat_user_was_promoted_to_admin">{name} was promoted to admin</string>
+line 2596: ...admin">{name} was promoted to admin</string>
+line 2599: ...ng name="x_lite_xchat_you_add_admin">You added {participants} as an admin</string>
+line 2599: ...ou added {participants} as an admin</string>
+line 2608: ...name="x_lite_xchat_you_remove_admin">You removed {participants} as an admin</string>
+line 2608: ... removed {participants} as an admin</string>
+line 2610: ...te_xchat_you_were_promoted_to_admin">You were promoted to admin</string>
+line 2610: ...o_admin">You were promoted to admin</string>
+
+File: res/values-en-rGB/strings.xml
+line 277:     <string name="x_lite_dm_admin">Admin</string>
+line 1448: ...me="x_lite_xchat_add_as_group_admin_failed">Unable to add user as Admin</string>
+line 1510: ...chat_group_participant_add_as_admin">Add as Admin</string>
+line 1512: ...t_group_participant_remove_as_admin">Remove as Admin</string>
+line 1567: ..."x_lite_xchat_remove_as_group_admin_failed">Unable to remove user as Admin</string>
+line 1571: ..."x_lite_xchat_resign_as_group_admin">Resign as Admin</string>
+line 1572: ..."x_lite_xchat_resign_as_group_admin_failed">Unable to resign as Admin</string>
+line 1597: ...me="x_lite_xchat_unknown_adds_admin">{participants} was added as an admin</string>
+line 1597: ...participants} was added as an admin</string>
+line 1598: ...ite_xchat_unknown_adds_you_as_admin">You were added as an admin</string>
+line 1598: ...s_admin">You were added as an admin</string>
+line 1599: ..."x_lite_xchat_unknown_removes_admin">{participants} was removed as an admin</string>
+line 1599: ...rticipants} was removed as an admin</string>
+line 1600: ..._xchat_unknown_removes_you_as_admin">You were removed as an admin</string>
+line 1600: ...admin">You were removed as an admin</string>
+line 1603: ... name="x_lite_xchat_user_adds_admin">{sender} added {participants} as an admin</string>
+line 1603: ...r} added {participants} as an admin</string>
+line 1604: ...x_lite_xchat_user_adds_you_as_admin">{sender} added you as an admin</string>
+line 1604: ...min">{sender} added you as an admin</string>
+line 1607: ...me="x_lite_xchat_user_removes_admin">{sender} removed {participants} as an admin</string>
+line 1607: ... removed {participants} as an admin</string>
+line 1608: ...ite_xchat_user_removes_you_as_admin">{sender} removed you as an admin</string>
+line 1608: ...n">{sender} removed you as an admin</string>
+line 1609: ...te_xchat_user_was_promoted_to_admin">{name} was promoted to admin</string>
+line 1609: ...admin">{name} was promoted to admin</string>
+line 1612: ...ng name="x_lite_xchat_you_add_admin">You added {participants} as an admin</string>
+line 1612: ...ou added {participants} as an admin</string>
+line 1621: ...name="x_lite_xchat_you_remove_admin">You removed {participants} as an admin</string>
+line 1621: ... removed {participants} as an admin</string>
+line 1623: ...te_xchat_you_were_promoted_to_admin">You were promoted to admin</string>
+line 1623: ...o_admin">You were promoted to admin</string>
+
+File: res/values-en-rXA/strings.xml
+line 176:     <string name="x_lite_dm_admin">[[190658]] Admin</string>
+line 1347: ...me="x_lite_xchat_add_as_group_admin_failed">[[292363]] Unable to add user as Admin</string>
+line 1409: ...chat_group_participant_add_as_admin">[[290231]] Add as Admin</string>
+line 1411: ...t_group_participant_remove_as_admin">[[290244]] Remove as Admin</string>
+line 1466: ..."x_lite_xchat_remove_as_group_admin_failed">[[292364]] Unable to remove user as Admin</string>
+line 1470: ..."x_lite_xchat_resign_as_group_admin">[[290241]] Resign as Admin</string>
+line 1471: ..."x_lite_xchat_resign_as_group_admin_failed">[[290265]] Unable to resign as Admin</string>
+line 1496: ...me="x_lite_xchat_unknown_adds_admin">[[292356]] {participants} was added as an admin</string>
+line 1496: ...participants} was added as an admin</string>
+line 1497: ...ite_xchat_unknown_adds_you_as_admin">[[292336]] You were added as an admin</string>
+line 1497: ...292336]] You were added as an admin</string>
+line 1498: ..."x_lite_xchat_unknown_removes_admin">[[292338]] {participants} was removed as an admin</string>
+line 1498: ...rticipants} was removed as an admin</string>
+line 1499: ..._xchat_unknown_removes_you_as_admin">[[292339]] You were removed as an admin</string>
+line 1499: ...2339]] You were removed as an admin</string>
+line 1502: ... name="x_lite_xchat_user_adds_admin">[[292326]] {sender} added {participants} as an admin</string>
+line 1502: ...r} added {participants} as an admin</string>
+line 1503: ...x_lite_xchat_user_adds_you_as_admin">[[292334]] {sender} added you as an admin</string>
+line 1503: ...34]] {sender} added you as an admin</string>
+line 1506: ...me="x_lite_xchat_user_removes_admin">[[292332]] {sender} removed {participants} as an admin</string>
+line 1506: ... removed {participants} as an admin</string>
+line 1507: ...ite_xchat_user_removes_you_as_admin">[[292328]] {sender} removed you as an admin</string>
+line 1507: ...]] {sender} removed you as an admin</string>
+line 1508: ...te_xchat_user_was_promoted_to_admin">[[298328]] {name} was promoted to admin</string>
+line 1508: ...8328]] {name} was promoted to admin</string>
+line 1511: ...ng name="x_lite_xchat_you_add_admin">[[292329]] You added {participants} as an admin</string>
+line 1511: ...ou added {participants} as an admin</string>
+line 1520: ...name="x_lite_xchat_you_remove_admin">[[292333]] You removed {participants} as an admin</string>
+line 1520: ... removed {participants} as an admin</string>
+line 1522: ...te_xchat_you_were_promoted_to_admin">[[298329]] You were promoted to admin</string>
+line 1522: ...298329]] You were promoted to admin</string>
+
+File: smali/io/intercom/android/sdk/models/TeamPresence.smali
+line 33:         value = "active_admins"
+
+File: smali_classes2/io/intercom/android/sdk/tickets/TicketTimelineCardState.smali
+line 20: .field private final adminAvatars:Ljava/util/List;
+line 72:     const-string v0, "adminAvatars"
+line 96: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 137: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 251: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 333:     const-string v0, "adminAvatars"
+line 399: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 401: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 504: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 568: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+line 634: ... v1, "TicketTimelineCardState(adminAvatars="
+line 638: ...ets/TicketTimelineCardState;->adminAvatars:Ljava/util/List;
+
+File: smali_classes2/io/intercom/android/sdk/blocks/ViewHolderGenerator.smali
+line 390: ...dk/R$layout;->intercom_blocks_admin_layout:I
+line 432: ...dk/R$layout;->intercom_blocks_admin_layout:I
+

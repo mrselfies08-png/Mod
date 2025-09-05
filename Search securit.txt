@@ -1,0 +1,787 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: security
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 602
+
+File: smali_classes2/bg.1/a.smali
+line 124: ...be cast to non-null type java.security.cert.X509Certificate"
+line 128:     check-cast v2, Ljava/security/cert/X509Certificate;
+line 132: ...ace {v5, v2}, Lbg/d;->a(Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 132: ...y/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 154: ...   invoke-virtual {v5}, Ljava/security/cert/X509Certificate;->getIssuerDN()Ljava/security/Principal;
+line 154: ...tificate;->getIssuerDN()Ljava/security/Principal;
+line 158: ...   invoke-virtual {v5}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
+line 158: ...ificate;->getSubjectDN()Ljava/security/Principal;
+line 172: ...   invoke-virtual {v5}, Ljava/security/cert/Certificate;->getPublicKey()Ljava/security/PublicKey;
+line 172: ...ificate;->getPublicKey()Ljava/security/PublicKey;
+line 176: ...nvoke-virtual {v5, v1}, Ljava/security/cert/Certificate;->verify(Ljava/security/PublicKey;)V
+line 176: ...rt/Certificate;->verify(Ljava/security/PublicKey;)V
+line 178:     .catch Ljava/security/GeneralSecurityException; {:try_start_0 .. :try_end_0} :catch_0
+line 211:     check-cast v5, Ljava/security/cert/X509Certificate;
+line 213: ...   invoke-virtual {v2}, Ljava/security/cert/X509Certificate;->getIssuerDN()Ljava/security/Principal;
+line 213: ...tificate;->getIssuerDN()Ljava/security/Principal;
+line 217: ...   invoke-virtual {v5}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
+line 217: ...ificate;->getSubjectDN()Ljava/security/Principal;
+line 231: ...   invoke-virtual {v5}, Ljava/security/cert/Certificate;->getPublicKey()Ljava/security/PublicKey;
+line 231: ...ificate;->getPublicKey()Ljava/security/PublicKey;
+line 235: ...nvoke-virtual {v2, v6}, Ljava/security/cert/Certificate;->verify(Ljava/security/PublicKey;)V
+line 235: ...rt/Certificate;->verify(Ljava/security/PublicKey;)V
+line 237:     .catch Ljava/security/GeneralSecurityException; {:try_start_1 .. :try_end_1} :catch_1
+
+File: smali/Tf/a.smali
+line 614: ...    instance-of p3, p3, Ljava/security/cert/CertificateException;
+
+File: smali/Xf/a.smali
+line 303: ...   invoke-static {}, Landroid/security/NetworkSecurityPolicy;->getInstance()Landroid/security/NetworkSecurityPolicy;
+line 303: ...olicy;->getInstance()Landroid/security/NetworkSecurityPolicy;
+line 307: ...ke-virtual {v0, p1}, Landroid/security/NetworkSecurityPolicy;->isCleartextTrafficPermitted(Ljava/lang/String;)Z
+
+File: apktool.json
+line 65:     "META-INF/androidx.security_security-crypto.version": "0",
+line 65: ...  "META-INF/androidx.security_security-crypto.version": "0",
+
+File: smali/io/intercom/android/sdk/metrics/AppTypeDetector.smali
+line 7: ... static final DEBUG_DN:Ljavax/security/auth/x500/X500Principal;
+line 16:     new-instance v0, Ljavax/security/auth/x500/X500Principal;
+line 20: ...nvoke-direct {v0, v1}, Ljavax/security/auth/x500/X500Principal;-><init>(Ljava/lang/String;)V
+line 22: ...ypeDetector;->DEBUG_DN:Ljavax/security/auth/x500/X500Principal;
+line 129: ...    invoke-static {v1}, Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFac...
+line 129: ...ance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+line 150: ...nvoke-virtual {v1, v5}, Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Cer...
+line 150: ...e(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+line 154:     check-cast v4, Ljava/security/cert/X509Certificate;
+line 156: ...   invoke-virtual {v4}, Ljava/security/cert/X509Certificate;->getSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 156: ...tSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 160: ...ypeDetector;->DEBUG_DN:Ljavax/security/auth/x500/X500Principal;
+line 162: ...voke-virtual {v4, v5}, Ljavax/security/auth/x500/X500Principal;->equals(Ljava/lang/Object;)Z
+
+File: smali_classes2/Xf/b.smali
+line 30: .method public final a(Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 30: ...y/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 46: ...be cast to non-null type java.security.cert.TrustAnchor"
+line 50:     check-cast p1, Ljava/security/cert/TrustAnchor;
+line 52: ...   invoke-virtual {p1}, Ljava/security/cert/TrustAnchor;->getTrustedCert()Ljava/security/cert/X509Certificate;
+line 52: ...nchor;->getTrustedCert()Ljava/security/cert/X509Certificate;
+
+File: smali_classes2/bg.1/b.smali
+line 14: ...rgs constructor <init>([Ljava/security/cert/X509Certificate;)V
+line 36: ...   invoke-virtual {v3}, Ljava/security/cert/X509Certificate;->getSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 36: ...tSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 73: .method public final a(Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 73: ...y/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 76: ...   invoke-virtual {p1}, Ljava/security/cert/X509Certificate;->getIssuerX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 76: ...etIssuerX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 114:     check-cast v3, Ljava/security/cert/X509Certificate;
+line 117: ...   invoke-virtual {v3}, Ljava/security/cert/Certificate;->getPublicKey()Ljava/security/PublicKey;
+line 117: ...ificate;->getPublicKey()Ljava/security/PublicKey;
+line 121: ...nvoke-virtual {p1, v3}, Ljava/security/cert/Certificate;->verify(Ljava/security/PublicKey;)V
+line 121: ...rt/Certificate;->verify(Ljava/security/PublicKey;)V
+line 128:     check-cast v1, Ljava/security/cert/X509Certificate;
+
+File: smali/J9/b.smali
+line 7970: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 7997: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+
+File: smali/Yf/b.smali
+line 78:     new-array v0, v0, [Ljava/security/cert/X509Certificate;
+line 84:     check-cast p2, [Ljava/security/cert/X509Certificate;
+line 91: ...s;->checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+line 99:     .catch Ljava/security/cert/CertificateException; {:try_start_0 .. :try_end_0} :catch_0
+
+File: smali/k9.1/b.smali
+line 229: ...    invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 229: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 233:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+line 259: ...nvoke-virtual {v3, p0}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali_classes2/Kg/c.smali
+line 6: .implements Ljava/security/PrivilegedAction;
+
+File: smali_classes2/Xf/c.smali
+line 295:     const-class v2, Ljava/security/cert/X509Certificate;
+line 484: ...   invoke-static {}, Landroid/security/NetworkSecurityPolicy;->getInstance()Landroid/security/NetworkSecurityPolicy;
+line 484: ...olicy;->getInstance()Landroid/security/NetworkSecurityPolicy;
+line 488: ...ke-virtual {v0, p1}, Landroid/security/NetworkSecurityPolicy;->isCleartextTrafficPermitted(Ljava/lang/String;)Z
+
+File: smali_classes3/Ja/c.smali
+line 243: ...    invoke-static {v4}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
+line 243: ...ance(Ljava/lang/String;)Ljava/security/KeyFactory;
+line 247:     new-instance v5, Ljava/security/spec/X509EncodedKeySpec;
+line 249: ...invoke-direct {v5, v1}, Ljava/security/spec/X509EncodedKeySpec;-><init>([B)V
+line 251: ...nvoke-virtual {v4, v5}, Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
+line 251: ...actory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
+line 251: .../security/spec/KeySpec;)Ljava/security/PublicKey;
+line 256:     .catch Ljava/security/spec/InvalidKeySpecException; {:try_start_1 .. :try_end_1} :catch_1
+line 257:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_1 .. :try_end_1} :catch_0
+line 303: ... invoke-interface {v1}, Ljava/security/Key;->getEncoded()[B
+line 312: ...    invoke-static {v4}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 312: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 316: ...nvoke-virtual {v4, v1}, Ljava/security/MessageDigest;->digest([B)[B
+line 340:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_3 .. :try_end_3} :catch_3
+
+File: smali_classes3/M4/c.smali
+line 569:     check-cast v2, Ljava/security/cert/Certificate;
+line 571: ...be cast to non-null type java.security.cert.X509Certificate"
+line 575:     check-cast v2, Ljava/security/cert/X509Certificate;
+
+File: smali_classes3/Xa/c.smali
+line 479: ...ic final getPermission()Ljava/security/Permission;
+line 489: ...ection;->getPermission()Ljava/security/Permission;
+
+File: smali/j.1/c.smali
+line 449: ...ed to add anon account due to security exception"
+line 817: ...ed to add user account due to security exception"
+
+File: smali/bg/c.smali
+line 26: ....method public static a(Ljava/security/cert/X509Certificate;I)Ljava/util/List;
+line 32: ...   invoke-virtual {p0}, Ljava/security/cert/X509Certificate;->getSubjectAlternativeNames()Ljava/util/Collection;
+line 107:     .catch Ljava/security/cert/CertificateParsingException; {:try_start_0 .. :try_end_0} :catch_0
+line 118: ...tic b(Ljava/lang/String;Ljava/security/cert/X509Certificate;)Z
+line 145: ...tic {p1, v1}, Lbg/c;->a(Ljava/security/cert/X509Certificate;I)Ljava/util/List;
+line 221: ...tic {p1, v1}, Lbg/c;->a(Ljava/security/cert/X509Certificate;I)Ljava/util/List;
+line 511: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 517: ...be cast to non-null type java.security.cert.X509Certificate"
+line 521:     check-cast p2, Ljava/security/cert/X509Certificate;
+line 523: ...c;->b(Ljava/lang/String;Ljava/security/cert/X509Certificate;)Z
+
+File: smali_classes2/Kg/d.smali
+line 289: ...    invoke-static {v2}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;
+line 289: ...ntroller;->doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;
+
+File: smali_classes2/Of/d.smali
+line 649: ...    invoke-static {v1}, Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFac...
+line 649: ...ance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+line 686: ...nvoke-virtual {v1, v4}, Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Cer...
+line 686: ...e(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+line 710:     .catch Ljava/security/cert/CertificateException; {:try_start_0 .. :try_end_0} :catch_0
+line 758:     check-cast v1, Ljava/security/cert/Certificate;
+line 760: ...   invoke-virtual {v1}, Ljava/security/cert/Certificate;->getEncoded()[B
+line 782:     .catch Ljava/security/cert/CertificateEncodingException; {:try_start_0 .. :try_end_0} :catch_0
+
+File: smali_classes2/bg.1/d.smali
+line 7: ...ethod public abstract a(Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+line 7: ...y/cert/X509Certificate;)Ljava/security/cert/X509Certificate;
+
+File: smali_classes3/Xa/d.smali
+line 495: ... getLocalCertificates()[Ljava/security/cert/Certificate;
+line 500: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+line 507: ...inal getLocalPrincipal()Ljava/security/Principal;
+line 512: ...on;->getLocalPrincipal()Ljava/security/Principal;
+line 531: ...final getPeerPrincipal()Ljava/security/Principal;
+line 536: ...ion;->getPeerPrincipal()Ljava/security/Principal;
+line 543: ...ic final getPermission()Ljava/security/Permission;
+line 553: ...ection;->getPermission()Ljava/security/Permission;
+line 671: ...getServerCertificates()[Ljava/security/cert/Certificate;
+line 676: ...getServerCertificates()[Ljava/security/cert/Certificate;
+
+File: smali_classes3/android/gov/nist/core/net/DefaultSecurityManagerProvider.smali
+line 105:     invoke-static {}, Ljava/security/KeyStore;->getDefaultType()Ljava/lang/String;
+line 197:     invoke-static {}, Ljava/security/KeyStore;->getDefaultType()Ljava/lang/String;
+line 251: ...    invoke-static {v3}, Ljava/security/Security;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+line 307: ...    invoke-static {v2}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 307: ...ance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 323: ...e-virtual {v2, v9, v0}, Ljava/security/KeyStore;->load(Ljava/io/InputStream;[C)V
+line 331: ...eyManagerFactory;->init(Ljava/security/KeyStore;[C)V
+line 336: ...eyManagerFactory;->init(Ljava/security/KeyStore;[C)V
+line 347: ...    invoke-static {p1}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 347: ...ance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 363: ...e-virtual {p1, v0, v1}, Ljava/security/KeyStore;->load(Ljava/io/InputStream;[C)V
+line 367: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+line 372: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+
+File: smali_classes3/android/gov/nist/javax/sip/clientauthutils/DigestServerAuthenticationHelper.smali
+line 15: ...d private messageDigest:Ljava/security/MessageDigest;
+line 60: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 60: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 64: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 116: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 122: ...nvoke-virtual {v1, v0}, Ljava/security/MessageDigest;->digest([B)[B
+line 261: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 267: ...nvoke-virtual {v3, v1}, Ljava/security/MessageDigest;->digest([B)[B
+line 294: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 300: ...nvoke-virtual {p2, p1}, Ljava/security/MessageDigest;->digest([B)[B
+line 415: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 421: ...nvoke-virtual {v1, p2}, Ljava/security/MessageDigest;->digest([B)[B
+line 429: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 435: ...nvoke-virtual {v1, p1}, Ljava/security/MessageDigest;->digest([B)[B
+line 462: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 468: ...nvoke-virtual {p2, p1}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali/Vf/e.1.smali
+line 482: ...-string v2, "strict-transport-security"
+
+File: smali_classes2/Xf/e.smali
+line 11: .field public final c:Ljava/security/Provider;
+line 50:     check-cast v0, Ljava/security/Provider;
+line 52: ...bject v0, p0, LXf/e;->c:Ljava/security/Provider;
+line 84: ...bject v1, p0, LXf/e;->c:Ljava/security/Provider;
+line 86: ...tance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;
+line 110: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+
+File: smali_classes3/u9.1/e.smali
+line 7: ...d public static final a:Ljava/security/SecureRandom;
+line 14:     new-instance v0, Ljava/security/SecureRandom;
+line 16: ...    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+line 18: ...ut-object v0, Lu9/e;->a:Ljava/security/SecureRandom;
+line 30: ...et-object v1, Lu9/e;->a:Ljava/security/SecureRandom;
+line 32: ...nvoke-virtual {v1, v0}, Ljava/security/SecureRandom;->nextBytes([B)V
+
+File: smali/D9/e0.smali
+line 5232: ...-static {}, LD9/q2;->E()Ljava/security/MessageDigest;
+line 5253: ...nvoke-virtual {v1, p1}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali/androidx/datastore/preferences/protobuf/e0.smali
+line 6: .implements Ljava/security/PrivilegedExceptionAction;
+
+File: smali/com/google/protobuf/E2.smali
+line 553: ...    invoke-static {v0}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object...
+line 553: ...ntroller;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+
+File: smali_classes3/com/statsig/androidsdk/evaluator/Evaluator.smali
+line 97: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 97: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 113: ...nvoke-virtual {v0, v1}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali_classes3/O9/f.smali
+line 118: ...    invoke-static {v8}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 118: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 122:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_2 .. :try_end_2} :catch_0
+line 124: ...nvoke-virtual {v8, v7}, Ljava/security/MessageDigest;->update([B)V
+line 126: ...   invoke-virtual {v8}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali/na/g.smali
+line 379: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 379: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 383:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+line 385: ...nvoke-virtual {v0, p0}, Ljava/security/MessageDigest;->update([B)V
+line 387: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali_classes2/Xf/h.smali
+line 11: .field public final c:Ljava/security/Provider;
+line 60: ...onscrypt;->newProvider()Ljava/security/Provider;
+line 68: ...bject v0, p0, LXf/h;->c:Ljava/security/Provider;
+line 144: ...bject v1, p0, LXf/h;->c:Ljava/security/Provider;
+line 146: ...tance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;
+line 174: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 200: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/HandshakeCompletedListenerImpl.smali
+line 28: ...vate localCertificates:[Ljava/security/cert/Certificate;
+line 30: ...ivate peerCertificates:[Ljava/security/cert/Certificate;
+line 219: ... getLocalCertificates()[Ljava/security/cert/Certificate;
+line 222: ...pl;->localCertificates:[Ljava/security/cert/Certificate;
+line 227: ...c getPeerCertificates()[Ljava/security/cert/Certificate;
+line 230: ...mpl;->peerCertificates:[Ljava/security/cert/Certificate;
+line 290: ...c setLocalCertificates([Ljava/security/cert/Certificate;)V
+line 293: ...pl;->localCertificates:[Ljava/security/cert/Certificate;
+line 298: ...ic setPeerCertificates([Ljava/security/cert/Certificate;)V
+line 301: ...mpl;->peerCertificates:[Ljava/security/cert/Certificate;
+
+File: smali/com/statsig/androidsdk/Hashing.smali
+line 44: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 44: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 60: ...nvoke-virtual {v0, p1}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali_classes3/com/google/android/gms/internal/play_billing/J.smali
+line 41: ...    invoke-static {v1}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object...
+line 41: ...ntroller;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+line 47:     .catch Ljava/security/PrivilegedActionException; {:try_start_1 .. :try_end_1} :catch_2
+line 135: ...   invoke-virtual {v0}, Ljava/security/PrivilegedActionException;->getCause()Ljava/lang/Throwable;
+
+File: smali/androidx/datastore/preferences/protobuf/j0.smali
+line 546: ...    invoke-static {v0}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object...
+line 546: ...ntroller;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+
+File: smali/D9/j2.smali
+line 4645: ...tual {v3}, LD9/q2;->j0()Ljava/security/SecureRandom;
+line 12320: ...tual {v2}, LD9/q2;->j0()Ljava/security/SecureRandom;
+line 19446: ...tual {v0}, LD9/q2;->j0()Ljava/security/SecureRandom;
+line 19450: ...nvoke-virtual {v0, p1}, Ljava/security/SecureRandom;->nextBytes([B)V
+
+File: smali_classes3/Y9/k.smali
+line 6: .implements Ljava/security/PrivilegedExceptionAction;
+
+File: smali_classes3/y9.1/K.smali
+line 16: .field public final x:Ljava/security/MessageDigest;
+line 28: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 28: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 32:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_1
+line 34: ...bject v0, p0, Ly9/K;->x:Ljava/security/MessageDigest;
+line 36: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->getDigestLength()I
+line 47: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->clone()Ljava/lang/Object;
+
+File: smali_classes2/Xf/l.smali
+line 11: .field public final c:Ljava/security/Provider;
+line 50:     check-cast v0, Ljava/security/Provider;
+line 52: ...bject v0, p0, LXf/l;->c:Ljava/security/Provider;
+line 84: ...bject v1, p0, LXf/l;->c:Ljava/security/Provider;
+line 86: ...tance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;
+line 104: ...bject v1, p0, LXf/l;->c:Ljava/security/Provider;
+line 106: ...tance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/TrustManagerFactory;
+line 112: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+
+File: smali_classes3/Y9/l.smali
+line 41: ...    invoke-static {v1}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object...
+line 41: ...ntroller;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+line 47:     .catch Ljava/security/PrivilegedActionException; {:try_start_1 .. :try_end_1} :catch_2
+line 135: ...   invoke-virtual {v0}, Ljava/security/PrivilegedActionException;->getCause()Ljava/lang/Throwable;
+
+File: smali_classes3/c9/l.smali
+line 75: ...    invoke-static {v5}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 75: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 79:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+line 96: ...nvoke-virtual {v8, v0}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali/Nb/l.smali
+line 67: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 73:     .catch Ljava/security/GeneralSecurityException; {:try_start_0 .. :try_end_0} :catch_0
+
+File: smali/Sf/l.smali
+line 276: ...4, " not permitted by network security policy"
+line 501: ...    instance-of v4, v4, Ljava/security/cert/CertificateException;
+line 1107: ...be cast to non-null type java.security.cert.X509Certificate"
+line 1111:     check-cast p1, Ljava/security/cert/X509Certificate;
+line 1139: ...   invoke-virtual {p1}, Ljava/security/cert/Certificate;->getPublicKey()Ljava/security/PublicKey;
+line 1139: ...ificate;->getPublicKey()Ljava/security/PublicKey;
+line 1143: ... invoke-interface {v1}, Ljava/security/Key;->getEncoded()[B
+line 1177: ...   invoke-virtual {p1}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
+line 1177: ...ificate;->getSubjectDN()Ljava/security/Principal;
+line 1181: ... invoke-interface {v0}, Ljava/security/Principal;->getName()Ljava/lang/String;
+line 1193: ...tic {p1, v0}, Lbg/c;->a(Ljava/security/cert/X509Certificate;I)Ljava/util/List;
+line 1199: ...tic {p1, v1}, Lbg/c;->a(Ljava/security/cert/X509Certificate;I)Ljava/util/List;
+line 1545: ...be cast to non-null type java.security.cert.X509Certificate"
+line 1549:     check-cast p2, Ljava/security/cert/X509Certificate;
+line 1551: ...c;->b(Ljava/lang/String;Ljava/security/cert/X509Certificate;)Z
+
+File: smali/Xf/m.smali
+line 139:     invoke-static {}, Ljava/security/Security;->getProviders()[Ljava/security/Provider;
+line 139: ...curity;->getProviders()[Ljava/security/Provider;
+line 145: ...   invoke-virtual {v0}, Ljava/security/Provider;->getName()Ljava/lang/String;
+line 168:     invoke-static {}, Ljava/security/Security;->getProviders()[Ljava/security/Provider;
+line 168: ...curity;->getProviders()[Ljava/security/Provider;
+line 174: ...   invoke-virtual {v0}, Ljava/security/Provider;->getName()Ljava/lang/String;
+line 197:     invoke-static {}, Ljava/security/Security;->getProviders()[Ljava/security/Provider;
+line 197: ...curity;->getProviders()[Ljava/security/Provider;
+line 203: ...   invoke-virtual {v0}, Ljava/security/Provider;->getName()Ljava/lang/String;
+line 330: ...;->getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
+line 344:     check-cast p1, [Ljava/security/cert/X509Certificate;
+line 346: ...0, p1}, Lbg/b;-><init>([Ljava/security/cert/X509Certificate;)V
+line 480: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 490:     .catch Ljava/security/GeneralSecurityException; {:try_start_0 .. :try_end_0} :catch_0
+line 529: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+
+File: smali_classes3/android/gov/nist/javax/sip/clientauthutils/MessageDigestAlgorithm.smali
+line 59: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 59: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 67: ...nvoke-virtual {v0, p0}, Ljava/security/MessageDigest;->digest([B)[B
+line 75:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+
+File: smali/dg/n.1.smali
+line 432: ...    invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 432: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 444: ...rtual {p1, v1, v2, v0}, Ljava/security/MessageDigest;->update([BII)V
+line 446: ...   invoke-virtual {p1}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali/D9/N1.smali
+line 360: ...-static {}, LD9/q2;->E()Ljava/security/MessageDigest;
+line 379: ...nvoke-virtual {p2, p1}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NioTlsMessageProcessor$1.smali
+line 37: ...lic checkClientTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
+line 80: ...lic checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
+line 123: ...ic getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
+line 128:     new-array v0, v0, [Ljava/security/cert/X509Certificate;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NioTlsMessageProcessor.smali
+line 123: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 137: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 147: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 225: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 233: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 239: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 247: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 285: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 293: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 299: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 305: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 313: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 319: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 336: ...ialization failed due to NULL security config"
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/NioTlsWebSocketMessageProcessor.smali
+line 497: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 509: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 519: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 542: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 550: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 558: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 568: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 576: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 582: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 600: ...ialization failed due to NULL security config"
+
+File: smali_classes2/dg.1/O.smali
+line 142: ...    invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 142: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 169: ...rtual {p1, v6, v4, v3}, Ljava/security/MessageDigest;->update([BII)V
+line 178: ...   invoke-virtual {p1}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali_classes3/com/google/android/gms/internal/play_billing/O.smali
+line 6: .implements Ljava/security/PrivilegedExceptionAction;
+
+File: smali_classes3/dd/O.smali
+line 227:     const-string v0, "securityKey"
+
+File: res/values/public.xml
+line 3996: ...g" name="x_lite_payment_error_security_and_privacy_pin_settings_toast" id="0x7f110744" />
+line 4192: ...name="x_lite_payment_settings_security_privacy_change_pin" id="0x7f110808" />
+line 4193: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option" id="0x7f110809" />
+line 4194: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description" id="0x7f11080a" />
+line 4203: ...x_lite_payment_settings_title_security_privacy" id="0x7f110813" />
+
+File: smali/D9/q.1.smali
+line 1465:     new-instance v0, Ljava/security/SecureRandom;
+line 1467: ...    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+
+File: smali_classes3/K/q.smali
+line 9838: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 9838: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 9842:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+line 9844: ...nvoke-virtual {v0, p0}, Ljava/security/MessageDigest;->update([B)V
+line 9846: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali_classes3/s9.1/Q.smali
+line 356: ...bject v0, v0, Ly9/K;->x:Ljava/security/MessageDigest;
+line 363: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->clone()Ljava/lang/Object;
+line 367:     check-cast v3, Ljava/security/MessageDigest;
+line 369: ...v3, v2}, LHg/v;-><init>(Ljava/security/MessageDigest;I)V
+line 379: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->getAlgorithm()Ljava/lang/String;
+line 384: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 384: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 388:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_1 .. :try_end_1} :catch_1
+line 390: ...v0, v2}, LHg/v;-><init>(Ljava/security/MessageDigest;I)V
+line 407:     check-cast v3, Ljava/security/MessageDigest;
+line 411: ...rtual {v3, v0, v5, v2}, Ljava/security/MessageDigest;->update([BII)V
+line 421: ...rtual {v3, p0, v5, v0}, Ljava/security/MessageDigest;->update([BII)V
+line 431: ...   invoke-virtual {v3}, Ljava/security/MessageDigest;->getDigestLength()I
+line 439: ...   invoke-virtual {v3}, Ljava/security/MessageDigest;->digest()[B
+line 452: ...   invoke-virtual {v3}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali/D9/Q.smali
+line 146: ...-static {}, LD9/q2;->E()Ljava/security/MessageDigest;
+line 213: ...voke-virtual {v10, v0}, Ljava/security/MessageDigest;->digest([B)[B
+line 991: ...tual {v3}, LD9/q2;->j0()Ljava/security/SecureRandom;
+line 995: ...nvoke-virtual {v3, v1}, Ljava/security/SecureRandom;->nextBytes([B)V
+
+File: smali/D9/q2.smali
+line 13: .field public c:Ljava/security/SecureRandom;
+line 124: ...method public static E()Ljava/security/MessageDigest;
+line 137: ...    invoke-static {v1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 137: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 141:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+line 1617:     new-instance v1, Ljavax/security/auth/x500/X500Principal;
+line 1621: ...nvoke-direct {v1, v2}, Ljavax/security/auth/x500/X500Principal;-><init>(Ljava/lang/String;)V
+line 1650: ...    invoke-static {p2}, Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFac...
+line 1650: ...ance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+line 1662: ...nvoke-virtual {p2, v2}, Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Cer...
+line 1662: ...e(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+line 1666:     check-cast p1, Ljava/security/cert/X509Certificate;
+line 1668: ...   invoke-virtual {p1}, Ljava/security/cert/X509Certificate;->getSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 1668: ...tSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;
+line 1672: ...voke-virtual {p1, v1}, Ljavax/security/auth/x500/X500Principal;->equals(Ljava/lang/Object;)Z
+line 1676:     .catch Ljava/security/cert/CertificateException; {:try_start_0 .. :try_end_0} :catch_1
+line 2143: ...tual {p0}, LD9/q2;->j0()Ljava/security/SecureRandom;
+line 2147: ...nvoke-virtual {v1, v0}, Ljava/security/SecureRandom;->nextBytes([B)V
+line 2547: ...method public final j0()Ljava/security/SecureRandom;
+line 2552: ...ject v0, p0, LD9/q2;->c:Ljava/security/SecureRandom;
+line 2556:     new-instance v0, Ljava/security/SecureRandom;
+line 2558: ...    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+line 2560: ...ject v0, p0, LD9/q2;->c:Ljava/security/SecureRandom;
+line 2563: ...ject v0, p0, LD9/q2;->c:Ljava/security/SecureRandom;
+
+File: smali/Of/r.smali
+line 197:     check-cast v3, Ljava/security/cert/Certificate;
+line 199: ...    instance-of v5, v3, Ljava/security/cert/X509Certificate;
+line 203:     check-cast v3, Ljava/security/cert/X509Certificate;
+line 205: ...   invoke-virtual {v3}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
+line 205: ...ificate;->getSubjectDN()Ljava/security/Principal;
+line 216: ...   invoke-virtual {v3}, Ljava/security/cert/Certificate;->getType()Ljava/lang/String;
+line 285:     check-cast v3, Ljava/security/cert/Certificate;
+line 287: ...    instance-of v5, v3, Ljava/security/cert/X509Certificate;
+line 291:     check-cast v3, Ljava/security/cert/X509Certificate;
+line 293: ...   invoke-virtual {v3}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
+line 293: ...ificate;->getSubjectDN()Ljava/security/Principal;
+line 304: ...   invoke-virtual {v3}, Ljava/security/cert/Certificate;->getType()Ljava/lang/String;
+
+File: smali/com/pairip/licensecheck/ResponseValidator.smali
+line 98: ...te static getPublicKey()Ljava/security/PublicKey;
+line 121: ...    invoke-static {v0}, Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
+line 121: ...ance(Ljava/lang/String;)Ljava/security/KeyFactory;
+line 126:     new-instance v4, Ljava/security/spec/X509EncodedKeySpec;
+line 128: ...invoke-direct {v4, v2}, Ljava/security/spec/X509EncodedKeySpec;-><init>([B)V
+line 130: ...nvoke-virtual {v3, v4}, Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
+line 130: ...actory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
+line 130: .../security/spec/KeySpec;)Ljava/security/PublicKey;
+line 134:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_2
+line 136:     .catch Ljava/security/spec/InvalidKeySpecException; {:try_start_0 .. :try_end_0} :catch_0
+line 301: ...lidator;->getPublicKey()Ljava/security/PublicKey;
+line 305: ...tring;Ljava/lang/String;Ljava/security/PublicKey;)V
+line 374: ...tring;Ljava/lang/String;Ljava/security/PublicKey;)V
+line 399: ...    invoke-static {p2}, Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;
+line 399: ...ance(Ljava/lang/String;)Ljava/security/Signature;
+line 404: ...nvoke-virtual {v0, p3}, Ljava/security/Signature;->initVerify(Ljava/security/PublicKey;)V
+line 404: .../Signature;->initVerify(Ljava/security/PublicKey;)V
+line 413: ...nvoke-virtual {v0, p0}, Ljava/security/Signature;->update([B)V
+line 422: ...nvoke-virtual {v0, p0}, Ljava/security/Signature;->verify([B)Z
+line 440:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_3
+line 441:     .catch Ljava/security/InvalidKeyException; {:try_start_0 .. :try_end_0} :catch_2
+line 442:     .catch Ljava/security/SignatureException; {:try_start_0 .. :try_end_0} :catch_1
+
+File: results auth.txt
+line 91: ...ne 7: ...inal DEBUG_DN:Ljavax/security/auth/x500/X500Principal;
+line 92: ...e 16: ...-instance v0, Ljavax/security/auth/x500/X500Principal;
+line 93: ...e 20: ...ect {v0, v1}, Ljavax/security/auth/x500/X500Principal;-><init>(Ljava/lang/String;)V
+line 94: ...e 22: ...or;->DEBUG_DN:Ljavax/security/auth/x500/X500Principal;
+line 95: ... 156: ...500Principal()Ljavax/security/auth/x500/X500Principal;
+line 96: ... 160: ...or;->DEBUG_DN:Ljavax/security/auth/x500/X500Principal;
+line 97: ... 162: ...ual {v4, v5}, Ljavax/security/auth/x500/X500Principal;->equals(Ljava/lang/Object;)Z
+line 317: ...e 36: ...500Principal()Ljavax/security/auth/x500/X500Principal;
+line 318: ...e 76: ...500Principal()Ljavax/security/auth/x500/X500Principal;
+line 822: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 823: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 826: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 828: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 830: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 832: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 834: ...nHelper;->messageDigest:Ljava/security/MessageDigest;
+line 1778: ...1617: ...-instance v1, Ljavax/security/auth/x500/X500Principal;
+line 1779: ...1621: ...ect {v1, v2}, Ljavax/security/auth/x500/X500Principal;-><init>(Ljava/lang/String;)V
+line 1780: ...1668: ...500Principal()Ljavax/security/auth/x500/X500Principal;
+line 1781: ...1672: ...ual {p1, v1}, Ljavax/security/auth/x500/X500Principal;->equals(Ljava/lang/Object;)Z
+line 2502: ...th_required_title">Additional security needed</string>
+line 2525: ..._title">[[295296]] Additional security needed</string>
+line 2561: ...th_required_title">Additional security needed</string>
+
+File: Search pay.txt
+line 480: ...g" name="x_lite_payment_error_security_and_privacy_pin_settings_toast" id="0x7f110744" />
+line 686: ...name="x_lite_payment_settings_security_privacy_change_pin" id="0x7f110808" />
+line 687: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option" id="0x7f110809" />
+line 688: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description" id="0x7f11080a" />
+line 697: ...x_lite_payment_settings_title_security_privacy" id="0x7f110813" />
+line 866: ...th_required_title">Additional security needed</string>
+line 886: ..._title">[[295296]] Additional security needed</string>
+line 906: ...th_required_title">Additional security needed</string>
+line 1238: ...quires a high level of device security</string...
+line 1285: ...ng name="x_lite_payment_error_security_and_privacy_pin_settings_toast">Unable to save changes</string>
+line 1291: ...th_required_title">Additional security needed</string>
+line 1436: ...ed to verify your full social security number</string>
+line 1493: ...name="x_lite_payment_settings_security_privacy_change_pin">Change PIN</string>
+line 1494: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option">Use Biometric</string>
+line 1495: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description">When enabled, you can use fingerp...
+line 1504: ...x_lite_payment_settings_title_security_privacy">Security &amp; Privacy</string>
+line 1622: ...tle">Ensure you get important security alerts and stay on top of yo...
+line 1935: ...ng name="x_lite_payment_error_security_and_privacy_pin_settings_toast">[[296760]] Unable to save changes</string>
+line 1941: ..._title">[[295296]] Additional security needed</string>
+line 2086: ...ed to verify your full social security number</st...
+line 2143: ...name="x_lite_payment_settings_security_privacy_change_pin">[[295019]] Change PIN</string>
+line 2144: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option">[[295156]] Use Biometric</string>
+line 2145: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description">[[295064]] When enabled, you can ...
+line 2154: ...x_lite_payment_settings_title_security_privacy">[[295276]] Security &amp; Privacy</string>
+line 2272: ...45]] Ensure you get important security alerts and stay o...
+line 2538: ...quires a high level of device security</string>
+line 2585: ...ng name="x_lite_payment_error_security_and_privacy_pin_settings_toast">Unable to save changes</string>
+line 2591: ...th_required_title">Additional security needed</string>
+line 2736: ...ed to verify your full social security number</string>
+line 2793: ...name="x_lite_payment_settings_security_privacy_change_pin">Change PIN</string>
+line 2794: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option">Use Biometric</string>
+line 2795: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description">When enabled, you can use fingerprin...
+line 2804: ...x_lite_payment_settings_title_security_privacy">Security &amp; Privacy</string>
+line 2922: ...tle">Ensure you get important security alerts and stay on top of your ...
+
+File: smali_classes3/android/gov/nist/javax/sip/SipStackImpl.smali
+line 218: ...0, "Cound not instantiate TLS security policy "
+line 220: ...tring v11, "Cannot initialize security manager provider"
+line 1082: ...string v2, "using default tls security policy"
+line 1626: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 1656: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 1661: ...p/stack/SIPTransactionStack;->securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+line 1665:     .catch Ljava/security/GeneralSecurityException; {:try_start_f .. :try_end_f} :catch_1a
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPTransaction.smali
+line 153: ... getLocalCertificates()[Ljava/security/cert/Certificate;
+line 174: ...t getPeerCertificates()[Ljava/security/cert/Certificate;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPTransactionImpl.smali
+line 934: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 973:     check-cast v7, Ljava/security/cert/X509Certificate;
+line 976: ...   invoke-virtual {v7}, Ljava/security/cert/X509Certificate;->getSubjectAlternativeNames()Ljava/util/Collection;
+line 980:     .catch Ljava/security/cert/CertificateParsingException; {:try_start_0 .. :try_end_0} :catch_0
+line 1270: ...   invoke-virtual {v7}, Ljava/security/cert/X509Certificate;->getSubjectDN()Ljava/security/Principal;
+line 1270: ...ificate;->getSubjectDN()Ljava/security/Principal;
+line 1274: ... invoke-interface {v0}, Ljava/security/Principal;->getName()Ljava/lang/String;
+line 1632: ... getLocalCertificates()[Ljava/security/cert/Certificate;
+line 1693: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+line 1733: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+line 1818: ...c getPeerCertificates()[Ljava/security/cert/Certificate;
+line 1879: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 1919: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SIPTransactionStack.smali
+line 241: .field protected securityManagerProvider:Landroid/gov/nist/core/net/SecurityManagerProvider;
+
+File: smali_classes3/android/gov/nist/core/net/SslNetworkLayer$1.smali
+line 37: ...lic checkClientTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
+line 80: ...lic checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
+line 123: ...ic getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
+line 128:     new-array v0, v0, [Ljava/security/cert/X509Certificate;
+
+File: smali_classes3/android/gov/nist/core/net/SslNetworkLayer.smali
+line 73:     new-instance v3, Ljava/security/SecureRandom;
+line 75: ...    invoke-direct {v3}, Ljava/security/SecureRandom;-><init>()V
+line 84:     invoke-static {}, Ljava/security/KeyStore;->getDefaultType()Ljava/lang/String;
+line 89: ...    invoke-static {p6}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 89: ...ance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 98:     invoke-static {}, Ljava/security/KeyStore;->getDefaultType()Ljava/lang/String;
+line 103: ...    invoke-static {p7}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 103: ...ance(Ljava/lang/String;)Ljava/security/KeyStore;
+line 111: ...e-virtual {p6, v4, p4}, Ljava/security/KeyStore;->load(Ljava/io/InputStream;[C)V
+line 117: ...e-virtual {p7, p3, p5}, Ljava/security/KeyStore;->load(Ljava/io/InputStream;[C)V
+line 119: ...stManagerFactory;->init(Ljava/security/KeyStore;)V
+line 121: ...eyManagerFactory;->init(Ljava/security/KeyStore;[C)V
+line 170: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+line 210: ...ax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/SSLStateMachine.smali
+line 925: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 929: ...;->setPeerCertificates([Ljava/security/cert/Certificate;)V
+line 971: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+line 975: ...->setLocalCertificates([Ljava/security/cert/Certificate;)V
+line 1362: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 1366: ...;->setPeerCertificates([Ljava/security/cert/Certificate;)V
+line 1421: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+line 1425: ...->setLocalCertificates([Ljava/security/cert/Certificate;)V
+line 1879: ...->getPeerCertificates()[Ljava/security/cert/Certificate;
+line 1883: ...;->setPeerCertificates([Ljava/security/cert/Certificate;)V
+line 1922: ...>getLocalCertificates()[Ljava/security/cert/Certificate;
+line 1926: ...->setLocalCertificates([Ljava/security/cert/Certificate;)V
+
+File: res/values/strings.xml
+line 1116: ...rm your age and for X safety, security and fraud prevention. Your photo will not be stored. X and xAI may retain your age informat...
+line 1678: ...rent card in the meantime for security purposes. Existing online transactions will continue to work.</string>
+line 1761: ...quires a high level of device security</string>
+line 1806: ...ng name="x_lite_payment_error_security_and_privacy_pin_settings_toast">Unable to save changes</string>
+line 1812: ...th_required_title">Additional security needed</string>
+line 1944: ...nd for X’s related safety and security purposes.</string>
+line 1948: ...ed to verify your full social security number</string>
+line 2002: ...name="x_lite_payment_settings_security_privacy_change_pin">Change PIN</string>
+line 2003: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option">Use Biometric</string>
+line 2004: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description">When enabled, you can use fingerprint, face, ...
+line 2013: ...x_lite_payment_settings_title_security_privacy">Security &amp; Privacy</string>
+line 2122: ...tle">Ensure you get important security alerts and stay on top of your spending</string>
+
+File: res/values-en-rGB/strings.xml
+line 127: ...rm your age and for X safety, security and fraud prevention. Your photo will not be stored. X and xAI may retain your age informat...
+line 688: ...rent card in the meantime for security purposes. Existing online transactions will continue to work.</string>
+line 771: ...quires a high level of device security</string>
+line 816: ...ng name="x_lite_payment_error_security_and_privacy_pin_settings_toast">Unable to save changes</string>
+line 822: ...th_required_title">Additional security needed</string>
+line 956: ...nd for X’s related safety and security purposes.</string>
+line 960: ...ed to verify your full social security number</string>
+line 1014: ...name="x_lite_payment_settings_security_privacy_change_pin">Change PIN</string>
+line 1015: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option">Use Biometric</string>
+line 1016: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description">When enabled, you can use fingerprint, face, ...
+line 1025: ...x_lite_payment_settings_title_security_privacy">Security &amp; Privacy</string>
+line 1134: ...tle">Ensure you get important security alerts and stay on top of your spending</string>
+
+File: res/values-en-rXA/strings.xml
+line 27: ...rm your age and for X safety, security and fraud prevention. Your photo will not be stored. X and xAI may retain your age informat...
+line 587: ...rent card in the meantime for security purposes. Existing online transactions will continue to work.</string>
+line 670: ...quires a high level of device security</string>
+line 715: ...ng name="x_lite_payment_error_security_and_privacy_pin_settings_toast">[[296760]] Unable to save changes</string>
+line 721: ..._title">[[295296]] Additional security needed</string>
+line 855: ...nd for X’s related safety and security purposes.</string>
+line 859: ...ed to verify your full social security number</string>
+line 913: ...name="x_lite_payment_settings_security_privacy_change_pin">[[295019]] Change PIN</string>
+line 914: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option">[[295156]] Use Biometric</string>
+line 915: ...name="x_lite_payment_settings_security_privacy_pin_use_biometric_option_description">[[295064]] When enabled, you can use fingerpr...
+line 924: ...x_lite_payment_settings_title_security_privacy">[[295276]] Security &amp; Privacy</string>
+line 1033: ...45]] Ensure you get important security alerts and stay on top of your spending</string>
+
+File: smali_classes3/com/x/thrift/onboarding/task/service/flows/thriftjava/Subtask.smali
+line 5935:     const-string v1, ", securityKey="
+
+File: smali_classes3/com/google/android/gms/internal/play_billing/T0.smali
+line 6: .implements Ljava/security/PrivilegedExceptionAction;
+
+File: smali_classes3/android/gov/nist/javax/sip/TransactionExt.smali
+line 36: ... getLocalCertificates()[Ljava/security/cert/Certificate;
+line 42: ...t getPeerCertificates()[Ljava/security/cert/Certificate;
+
+File: smali/Nb/u.smali
+line 15: .field public final e:Ljava/security/SecureRandom;
+line 26:     new-instance v0, Ljava/security/SecureRandom;
+line 28: ...    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+line 30: ...bject v0, p0, LNb/u;->e:Ljava/security/SecureRandom;
+line 47: ...bject v2, p0, LNb/u;->e:Ljava/security/SecureRandom;
+line 133:     new-instance v0, Ljava/security/SecureRandom;
+line 135: ...    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+
+File: smali/com/google/android/gms/internal/measurement/U2.smali
+line 6: .implements Ljava/security/PrivilegedExceptionAction;
+
+File: smali_classes3/android/gov/nist/javax/sip/Utils.smali
+line 14: ...te static digesterPool:[Ljava/security/MessageDigest; = null
+line 33:     new-array v0, v0, [Ljava/security/MessageDigest;
+line 35: ...p/Utils;->digesterPool:[Ljava/security/MessageDigest;
+line 59: ...p/Utils;->digesterPool:[Ljava/security/MessageDigest;
+line 63: ...    invoke-static {v2}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 63: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 409: ...p/Utils;->digesterPool:[Ljava/security/MessageDigest;
+line 424: ...nvoke-virtual {v3, v1}, Ljava/security/MessageDigest;->digest([B)[B
+line 485: ...p/Utils;->digesterPool:[Ljava/security/MessageDigest;
+line 522: ...nvoke-virtual {v2, v0}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali_classes2/Hg/v.1.smali
+line 18: ...blic constructor <init>(Ljava/security/MessageDigest;I)V
+
+File: smali/Fc/v.smali
+line 1530: ...    invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 1530: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 1538: ...nvoke-virtual {v0, p3}, Ljava/security/MessageDigest;->digest([B)[B
+line 1548:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_2 .. :try_end_2} :catch_0
+
+File: smali/i/v.smali
+line 502:     new-instance p1, Ljava/security/SecureRandom;
+line 504: ...    invoke-direct {p1}, Ljava/security/SecureRandom;-><init>()V
+line 510: ...nvoke-virtual {p1, v1}, Ljava/security/SecureRandom;->nextBytes([B)V
+line 601: ...    invoke-static {v3}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 601: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 609: ...nvoke-virtual {v3, v2}, Ljava/security/MessageDigest;->update([B)V
+line 611: ...   invoke-virtual {v3}, Ljava/security/MessageDigest;->digest()[B
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/WebSocketHttpHandshake.smali
+line 66: ...    invoke-static {v1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 66: ...ance(Ljava/lang/String;)Ljava/security/MessageDigest;
+line 70: ...   invoke-virtual {v0}, Ljava/security/MessageDigest;->reset()V
+line 72:     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+line 86: ...nvoke-virtual {v0, p0}, Ljava/security/MessageDigest;->digest([B)[B
+
+File: smali/C3/X.smali
+line 414:     check-cast v3, Ljava/security/cert/Certificate;
+line 416: ...be cast to non-null type java.security.cert.X509Certificate"
+line 420:     check-cast v3, Ljava/security/cert/X509Certificate;
+
+File: smali/D9/X.smali
+line 469: ...tual {v3}, LD9/q2;->j0()Ljava/security/SecureRandom;
+
+File: smali_classes3/com/google/android/gms/internal/play_billing/X0.smali
+line 663: ...    invoke-static {v0}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object...
+line 663: ...ntroller;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+
+File: smali/com/google/android/gms/internal/measurement/Y2.smali
+line 753: ...    invoke-static {v0}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object...
+line 753: ...ntroller;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+
+File: smali/com/google/protobuf/z2.smali
+line 6: .implements Ljava/security/PrivilegedExceptionAction;
+
