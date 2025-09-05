@@ -1,0 +1,242 @@
+Directory: /storage/emulated/0/Apktool_M/Grok_v1.0.36-release.00(11036900)_src
+Search: mini
+Parameters: by file content, regular expressions, case sensitive, recursive search
+Total: 133
+
+File: smali/eb/b.smali
+line 384:     const-string v6, "minimum_fetch_interval_in_seconds"
+
+File: smali_classes3/P2/b5.1.smali
+line 139:     const-string v1, ", minimizedAlignment="
+
+File: smali_classes3/B1/C.smali
+line 97: ...g v2, "camerax.core.appConfig.minimumLoggingLevel"
+
+File: smali/a7/c.smali
+line 227: ...INTEGER NOT NULL DEFAULT -1, `minimum_retention_duration` INTEGER NOT NULL, `schedule_requested_at` INTEGER NOT NULL, `run_in_fore...
+line 231: ...uration`,`last_enqueue_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`pe...
+line 231: ...uration`,`last_enqueue_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`pe...
+line 276: ...ueue_time` INTEGER NOT NULL, `minimum_retention_duration` INTEGER NOT NULL, `schedule_requested_at` INTEGER NOT NULL, `run_in_fore...
+line 280: ...uration`,`last_enqueue_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`pe...
+line 280: ...uration`,`last_enqueue_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`pe...
+line 303: ...ueue_time` INTEGER NOT NULL, `minimum_retention_duration` INTEGER NOT NULL, `schedule_requested_at` INTEGER NOT NULL, `run_in_fore...
+line 307: ...uration`,`last_enqueue_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`re...
+line 307: ...uration`,`period_start_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`re...
+line 692: ...tart_time` INTEGER NOT NULL, `minimum_retention_duration` INTEGER NOT NULL, `schedule_requested_at` INTEGER NOT NULL, `run_in_fore...
+line 696: ...uration`,`period_start_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`re...
+line 696: ...uration`,`period_start_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`re...
+line 805: ...R NOT NULL,\n                `minimum_retention_duration` INTEGER NOT NULL,\n                `schedule_requested_at` INTEGER NOT N...
+line 809: ..._enqueue_time`,\n            `minimum_retention_duration`,\n            `schedule_requested_at`,\n            `run_in_foreground`,...
+line 809: ..._enqueue_time`,\n            `minimum_retention_duration`,\n            `schedule_requested_at`,\n            `run_in_foreground`,...
+
+File: smali_classes3/androidx/appcompat/widget/c0.1.smali
+line 977: ... v3, "px) is less or equal to minimum auto-size text size ("
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/CallAnalyzer$1.smali
+line 64: ...MetricAnalysisConfiguration;->minimumDumpInterval:Ljava/lang/Long;
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/CallAnalyzer$MetricAnalysisConfiguration.smali
+line 20: .field protected minimumDumpInterval:Ljava/lang/Long;
+line 48: ...MetricAnalysisConfiguration;->minimumDumpInterval:Ljava/lang/Long;
+line 72: ...MetricAnalysisConfiguration;->minimumDumpInterval:Ljava/lang/Long;
+
+File: smali_classes2/uf.1/d.smali
+line 29:     const-string p1, "The minimum number of digits ("
+
+File: smali_classes3/androidx/work/impl/workers/DiagnosticsWorker.smali
+line 189:     const-string v2, "minimum_retention_duration"
+
+File: res/values/dimens.xml
+line 85:     <dimen name="exo_styled_minimal_controls_margin_bottom">4.0dip</dimen>
+line 94:     <dimen name="fastscroll_minimum_range">50.0dip</dimen>
+
+File: smali_classes3/f9.1/e.1.smali
+line 1167: ...ring v0, "Internal Error, the minimum apk version of this BaseGmsClient is too low to support dynamic lookup. Start service action...
+
+File: smali_classes2/uf.1/e.smali
+line 35:     const-string p1, "The minimum number of digits ("
+
+File: smali/Ue/e.smali
+line 75: ...t-string p2, "Instant exceeds minimum or maximum instant"
+
+File: smali/i7.1/e.smali
+line 30: ...uration`,`last_enqueue_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_no_quota_policy`,`pe...
+
+File: smali/v8/e.smali
+line 67: ...nst-string p4, " is less than minimum "
+line 120: ...nst-string p2, " is less than minimum "
+line 167: ...nst-string p2, " is less than minimum "
+line 397: ...nst-string v0, " is less than minimum "
+
+File: res/layout/exo_player_control_view.xml
+line 91:         android:id="@id/exo_minimal_controls"
+line 94: ...rginBottom="@dimen/exo_styled_minimal_controls_margin_bottom"
+line 97: ...          android:id="@id/exo_minimal_fullscreen"
+
+File: smali_classes3/D9/f0.smali
+line 2018: ... Scheduling batch upload with minimum latency in millis"
+
+File: smali_classes2/rf/g0.smali
+line 92:     const-string v0, "The minimum number of digits ("
+
+File: smali/D9/I.smali
+line 748: ...ring v12, "measurement.upload.minimum_delay"
+line 764: ...2, "measurement.alarm_manager.minimum_interval"
+
+File: smali/i7.1/i.smali
+line 65: ... = ?,`last_enqueue_time` = ?,`minimum_retention_duration` = ?,`schedule_requested_at` = ?,`run_in_foreground` = ?,`out_of_no_quota...
+
+File: smali/com/google/android/gms/internal/measurement/i3.1.smali
+line 419: ...0, "measurement.alarm_manager.minimum_interval"
+line 429: ...tring v0, "measurement.upload.minimum_delay"
+
+File: res/values/ids.xml
+line 122: ...    <item type="id" name="exo_minimal_controls" />
+line 123: ...    <item type="id" name="exo_minimal_fullscreen" />
+
+File: unknown/META-INF/androidx/annotation/annotation/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: unknown/META-INF/androidx/collection/collection/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: unknown/META-INF/androidx/collection/collection-ktx/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: unknown/META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: unknown/META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: unknown/META-INF/androidx/lifecycle/lifecycle-common-java8/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: original/META-INF/androidx/annotation/annotation/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: original/META-INF/androidx/collection/collection/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: original/META-INF/androidx/collection/collection-ktx/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: original/META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: original/META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: original/META-INF/androidx/lifecycle/lifecycle-common-java8/LICENSE.txt
+line 150: ...e solely responsible for determining the
+
+File: smali/i7.1/m.smali
+line 58: ...INTEGER NOT NULL DEFAULT -1, `minimum_retention_duration` INTEGER NOT NULL, `schedule_requested_at` INTEGER NOT NULL, `run_in_fore...
+line 535:     const-string v17, "minimum_retention_duration"
+line 545:     const-string v7, "minimum_retention_duration"
+
+File: smali/na/n.smali
+line 1299:     const-string v3, "No minidump data found for session "
+
+File: smali_classes2/Jf/P.smali
+line 56:     const-string v0, "minimum"
+line 170:     const-string v1, ", minimum="
+
+File: smali_classes2/og.1/p.smali
+line 181:     const-string v4, "\' and minimum length "
+
+File: smali_classes3/com/google/type/PostalAddress.smali
+line 61: .field private administrativeArea_:Ljava/lang/String;
+line 120: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 202: ...gle/type/PostalAddress;->setAdministrativeArea(Ljava/lang/String;)V
+line 210: ...e/type/PostalAddress;->clearAdministrativeArea()V
+line 218: ...gle/type/PostalAddress;->setAdministrativeAreaBytes(Lcom/google/protobuf/p;)V
+line 555: .method private clearAdministrativeArea()V
+line 562: ...gle/type/PostalAddress;->getAdministrativeArea()Ljava/lang/String;
+line 566: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1001: .method private setAdministrativeArea(Ljava/lang/String;)V
+line 1006: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1011: .method private setAdministrativeAreaBytes(Lcom/google/protobuf/p;)V
+line 1020: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1310:     const-string v5, "administrativeArea_"
+line 1424: .method public getAdministrativeArea()Ljava/lang/String;
+line 1427: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 1432: .method public getAdministrativeAreaBytes()Lcom/google/protobuf/p;
+line 1435: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+
+File: res/values/public.xml
+line 972: ...type="dimen" name="exo_styled_minimal_controls_margin_bottom" id="0x7f070076" />
+line 981: ...type="dimen" name="fastscroll_minimum_range" id="0x7f07007f" />
+line 1720: 	<public type="id" name="exo_minimal_controls" id="0x7f0a00cd" />
+line 1721: 	<public type="id" name="exo_minimal_fullscreen" id="0x7f0a00ce" />
+
+File: smali/i7.1/q.smali
+line 711:     const-string v3, "minimum_retention_duration"
+line 1366:     const-string v3, "minimum_retention_duration"
+line 2015:     const-string v3, "minimum_retention_duration"
+line 2664:     const-string v3, "minimum_retention_duration"
+line 3313:     const-string v3, "minimum_retention_duration"
+line 4056:     const-string v3, "minimum_retention_duration"
+
+File: smali/com/google/firebase/perf/config/RemoteConfigManager.smali
+line 481:     const-string v5, "minimum_fetch_interval_in_seconds"
+
+File: Search admin.txt
+line 198: line 61: .field private administrativeArea_:Ljava/lang/String;
+line 199: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 200: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 201: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 202: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 203: ...1310:     const-string v5, "administrativeArea_"
+line 204: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+line 205: ...google/type/PostalAddress;->administrativeArea_:Ljava/lang/String;
+
+File: Search protec.txt
+line 91: line 20: .field protected minimumDumpInterval:Ljava/lang/Long;
+
+File: Search responsd.txt
+line 983: ...e solely responsible for determining the
+line 987: ...e solely responsible for determining the
+line 991: ...e solely responsible for determining the
+line 995: ...e solely responsible for determining the
+line 999: ...e solely responsible for determining the
+line 1003: ...e solely responsible for determining the
+line 1007: ...e solely responsible for determining the
+line 1011: ...e solely responsible for determining the
+line 1015: ...e solely responsible for determining the
+line 1019: ...e solely responsible for determining the
+line 1023: ...e solely responsible for determining the
+line 1027: ...e solely responsible for determining the
+line 4361: ...esponse_hint">Please select a minimum of {minimum_response_count} and a maximum of {...
+line 4361: ...">Please select a minimum of {minimum_response_count} and a maximum of {...
+line 4362: ...esponse_hint">Please select a minimum of {minimum_response_count} and a maximum of {maximum_respons...
+line 4362: ...">Please select a minimum of {minimum_response_count} and a maximum of {maximum_respons...
+line 4363: line 825: ... select a minimum of {minimum_response_count} and a maximum of {maximum_response_count} options</string>
+line 4363: ...825: ... select a minimum of {minimum_response_count} and a maximum of {maximum_response_count} options</string>
+line 4366: ...>Please ensure answers have a minimum of {character_count} characters</string>
+
+File: res/values/strings.xml
+line 825: ...esponse_hint">Please select a minimum of {minimum_response_count} and a maximum of {maximum_response_count} options</string>
+line 825: ...">Please select a minimum of {minimum_response_count} and a maximum of {maximum_response_count} options</string>
+line 827: ...>Please ensure answers have a minimum of {character_count} characters</string>
+
+File: smali/io/intercom/android/sdk/survey/model/SurveyData$Step$Question$QuestionData.smali
+line 60:         value = "minimum_selection"
+
+File: smali_classes3/y5.1/u.smali
+line 860: ...    const-string v10, "AXON 7 mini"
+
+File: smali_classes2/tf.1/v.smali
+line 64: ...3, ") should be more than the minimum number of digits ("
+line 99: ...tring p1, ") is less than the minimum number of digits ("
+line 122:     const-string p1, "The minimum number of digits ("
+
+File: smali_classes3/android/gov/nist/javax/sip/stack/WebSocketCodec.smali
+line 885: ... data frame length (not using minimal length encoding): "
+
+File: smali/na/y.smali
+line 396:     const-string v4, "Determining Crashlytics installation ID..."
+
+File: smali/I2/z.1.smali
+line 1517: ..., 5) AND (last_enqueue_time + minimum_retention_duration) < "
+
